@@ -1,122 +1,278 @@
 [
     {
-        "year":"25.000TCN - 7.000TCN",
-        "title":"Văn hóa Soi Nhụ",
-        "content":"Văn hóa Soi Nhụ gọi theo tên địa điểm khảo cổ học Soi Nhụ thuộc vịnh Bái Tử Long, là nền văn hóa của người tiền sử được các nhà khảo cổ học Việt Nam phát hiện năm 1964 và khai quật năm 1967.",
-        "thoiky":"tiensu"
+        "year": "25.000TCN - 7.000TCN",
+        "title": "Văn hóa Soi Nhụ",
+        "content": "Văn hóa Soi Nhụ gọi theo tên địa điểm khảo cổ học Soi Nhụ thuộc vịnh Bái Tử Long, là nền văn hóa của người tiền sử được các nhà khảo cổ học Việt Nam phát hiện năm 1964 và khai quật năm 1967.",
+        "thoiky": "tiensu"
     },
     {
         "year": "23.000 TCN",
         "title": "Văn hóa Ngườm",
         "content": "Kỹ nghệ Ngườm là một kỹ nghệ chế tác công cụ lao động từ đá của người nguyên thủy thời hậu kỳ Đá cũ. ",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "23.000TCN - 1.000 TCN",
         "title": "Văn hóa Tràng An",
         "content": "Văn hóa Tràng An là một nền văn hóa cổ ở Việt Nam, hình thành từ thời kỳ đồ đá cũ cách nay khoảng 25 ngàn năm. Tràng An là tên một địa danh ở Ninh Bình, nơi đầu tiên tìm ra những di chỉ của nền văn hóa này. Và hiện nay, đã tìm ra được khoảng 30 địa điểm có nền văn hóa Tràng An",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "20.000TCN - 12.000TCN",
         "title": "Văn hóa Sơn Vi",
         "content": "Văn hóa Sơn Vi là một nền văn hóa ở Việt Nam vào hậu kỳ thời đại đồ đá cũ cách ngày nay khoảng 16.000 đến 9.000 năm.[1] Đây là nền văn hóa kế trước văn hóa Hòa Bình.Đến nay đã có khoảng 160 địa điểm thuộc văn hóa Sơn Vi đã được phát hiện.",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "12.000TCN - 10.000TCN",
         "title": "Văn hóa Hoà Bình",
         "content": "Văn hóa Hòa Bình thuộc thời đại đồ đá cũ sang thời đại đồ đá mới (cách ngày nay 15.000 năm, kéo dài đến 2.000 năm trước Công Nguyên),Văn hóa Hòa Bình được giới khảo cổ học chính thức công nhận từ ngày 30 tháng 1 năm 1932, do đề xuất của Madeleine Colani, sau khi đã được Đại hội các nhà Tiền sử Viễn Đông họp tại Hà Nội thông qua. ",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "10.000TCN - 8.000 TCN",
         "title": "Văn hóa Bắc Sơn",
         "content": "Văn hóa Bắc Sơn là một nền văn hóa cổ đại Việt Nam ở sơ kỳ thời đại đồ đá mới có niên đại sau nền văn hóa Hòa Bình, cách ngày nay từ một vạn đến tám ngàn năm.",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "8.000TCN - 6.000 TCN",
         "title": "Văn hóa Quỳnh Văn",
         "content": "Văn hóa Quỳnh Văn (thời đại đồ đá mới, khoảng 6.000 – 3.500 năm cách ngày nay) được phát hiện từ những năm 1930 bởi các học giả người Pháp. Cho đến nay đã có hơn 70 năm nghiên cứu với 21 di tích",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "7.000TCN - 5.000 TCN",
         "title": "Văn hóa Cái Bèo",
         "content": "Văn hóa Cái Bèo có niên đại trước nền văn hóa Hạ Long. Di chỉ Cái Bèo được phát hiện vào năm 1938 trong lần tiến hành thám sát khảo cổ học ven biển khu vực liên quan thuộc vùng vịnh Hạ Long ngày nay. ",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "6.000TCN - 5.000 TCN",
         "title": "Văn hóa Đa bút",
         "content": "Văn hóa Đa Bút là một nền văn hóa Việt Nam ở sơ kỳ thời đại đồ đá mới có niên đại sau các nền văn hóa Hòa Bình và Bắc Sơn, cách đây từ 5000 đến 6000 năm. Tính đến năm 2010, đã có hơn 10 điểm văn hóa Đa Bút được phát hiện và khai quật. Các bộ lạc chủ nhân của văn hóa Đa Bút đã tạo ra nền văn hóa Đông Sơn.",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "3.000TCN - 1.500 TCN",
         "title": "Văn hóa Hạ Long",
         "content": "Văn hóa Hạ Long là một nền văn hóa cổ. Cho đến nay, đã có khoảng gần 50 di tích “Văn hoá Hạ Long” được phát hiện trên các đảo của Vịnh Hạ Long cũng như dọc bờ biển từ Móng Cái đến Vân Đồn, với đặc trưng chung về loại hình - kỹ thuật chế tác công cụ đá và đồ gốm có từ cách đây 5.000-3.000 năm.",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "2.000TCN - 1.500 TCN",
         "title": "Văn hóa Phùng Nguyên",
         "content": "Văn hóa Phùng Nguyên là một nền văn hóa tiền sử thuộc sơ kỳ thời đại đồ đồng, cuối thời đại đồ đá mới. Tính đến năm 1998, có khoảng 55 địa điểm đã được phát hiện có di chỉ văn hóa đồng dạng với các di chỉ tại Phùng Nguyên, trong đó có 3 địa điểm có di cốt người. Công cụ bằng đá phổ biến và chiếm ưu thế tuyệt đối. Đồ trang sức bằng các loại đá, đá bán quý, ngọc được tìm thấy nhiều, đặc biệt là các vòng đá. ",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "2.000TCN - 1.000 TCN",
         "title": "Văn hóa Tiền Sa Huỳnh",
         "content": "Hiện nay chưa có những thông tin chính thức về nền văn hóa cổ xưa này",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "1.500TCN - 1.000 TCN",
         "title": "Văn hóa Đồng Đậu",
         "content": "Văn hoá Đồng Đậu là nền văn hóa thuộc thời kỳ đồ đồng ở Việt Nam cách ngày nay khoảng 3.000 năm, sau văn hóa Phùng Nguyên, trước văn hóa Gò Mun. Tên của nền văn hóa này đặt theo tên khu di tích Đồng Đậu ở thị trấn Yên Lạc, huyện Yên Lạc, tỉnh Vĩnh Phúc, nơi các nhà khảo cổ học đã khám phá ra một nền văn hóa đồ đồng phong phú năm 1962.",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "1.000TCN - 600 TCN",
         "title": "Văn hóa Gò Mun",
         "content": "Văn hóa Gò Mun được đặt tên theo địa điểm (gò Mun, xã Tứ Xã, huyện Phong Châu, tỉnh Phú Thọ), vào năm 1961 các nhà khảo cổ học đã khai quật được nhiều di chỉ của nền văn hóa này.Văn hóa Gò Mun được nhìn nhận như là nền văn hóa tiền văn hóa Đông Sơn. Thời kỳ này, người Việt cổ đã có những chuyển biến rõ rệt về một xã hội phức tạp và giàu có, thúc đẩy việc ra đời nhà nước sơ khai của người Việt.",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "1.000TCN - 200 TCN",
         "title": "Văn hóa Sa Huỳnh",
         "content": "Văn hóa Sa Huỳnh là một nền văn hóa khảo cổ được xác định ở vào khoảng năm 1000 TCN đến cuối thế kỷ thứ 2. Nền văn hóa Sa Huỳnh là một trong ba cái nôi cổ xưa về văn minh trên lãnh thổ Việt Nam, cùng với Văn hóa Đông Sơn và Văn hóa. Sa Huỳnh đư­ợc nhà khảo cổ ng­ười Pháp M. Vinet phát hiện lần đầu tiên vào năm 1909. Nền văn hóa này còn được gọi là VH Kho Chum Sa Huỳnh",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "1.000TCN - 0",
         "title": "Văn hóa Đồng Nai",
         "content": "Văn hóa Đồng Nai chỉ các di tích khảo cổ ở Việt Nam phân bố trên vùng trung du và đồng bằng miền Đông Nam Bộ, ven các sông Đồng Nai, sông Sài Gòn và sông Vàm Cỏ, thể hiện một quá trình diễn biến văn hoá từ sơ kì thời đại đồ đồng đến sơ kì thời đại sắt.",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "700TCN - 100 TCN",
         "title": "Văn hóa Đông Sơn",
         "content": "Văn hóa Đông Sơn là một nền văn hóa cổ đã xuất hiện vào khoảng năm 800 Trước Công Nguyên, từng tồn tại ở một số tỉnh miền Bắc Việt Nam và Bắc Trung bộ Việt Nam,phân bố dọc theo các con sông chính: sông Hồng, sông Mã và sông Lam vào thời kỳ đồ đồng và thời kỳ đồ sắt sớm. Nền văn hóa này được đặt tên theo địa phương nơi các dấu tích đầu tiên của nó được phát hiện, gần sông Mã, Thanh Hóa. Có những nghiên cứu cho rằng trên cơ sở văn hóa Đông Sơn, nhà nước văn minh đầu tiên của người Việt, nhà nước Văn Lang của các Vua Hùng và nối tiếp là nhà nước Âu Lạc của An Dương Vương đã phát triển, trước khi bị ảnh hưởng của nền văn minh Hán. Theo đánh giá của các nhà khoa học, thì nền Văn hóa Đông Sơn là sự phát triển liên tục và kế thừa từ các thời kỳ tiền Đông Sơn trước đó là Văn hóa Phùng Nguyên đến Văn hóa Đồng Đậu và Văn hóa Gò Mun.",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "1TCN - 630",
         "title": "Văn hóa Óc Eo",
         "content": "Văn hóa Óc Eo là một nền văn hóa cổ hình thành và phát triển ở Nam Bộ Việt Nam từ thế kỷ 1 đến thế kỷ 7 sau Công Nguyên. Đây là một nền văn hóa lớn trong lịch sử Việt Nam, gắn liền với đất nước, con người ở vùng châu thổ hạ lưu sông Mê Kông và có quan hệ mật thiết với lịch sử Đông Nam Á cổ đại. Óc Eo vốn là tên một gò đất trên cánh đồng phía đông nam núi Ba Thê (nay thuộc thị trấn Óc Eo, huyện Thoại Sơn, tỉnh An Giang), là nơi đầu tiên tìm thấy những di chỉ quan trọng của nền văn minh này vào năm 1944",
-        "thoiky":"tiensu"
+        "thoiky": "tiensu"
     },
     {
         "year": "Thế kỷ 7 TCN - Thế kỷ 3 TCN",
         "title": "Nhà nước Văn Lang",
-        "content": "",
-        "thoiky":"sosu"
+        "content": "Sự kiện Vua Hùng thành lập nước Văn Lang đánh dấu một bước ngoặt quan trọng trong lịch sử dân tộc Việt Nam. Vào khoảng thế kỷ thứ 7 TCN, Vua Hùng, vị vua đầu tiên của dân tộc, đã thống nhất các bộ tộc ở khu vực đồng bằng sông Hồng, lập nên nhà nước Văn Lang - nhà nước sơ khai đầu tiên của người Việt. Đây là cột mốc quan trọng trong việc hình thành bản sắc văn hóa và truyền thống của dân tộc ta, mở đầu cho thời kỳ dựng nước và giữ nước kéo dài hàng ngàn năm. Kinh đô được đặt ở Phong Châu (ngày nay là Phú Thọ). Xã hội Văn Lang được tổ chức theo mô hình liên minh bộ lạc, với chế độ mẫu hệ và tôn giáo sơ khai.",
+        "thoiky": "sosu"
     },
     {
-        "year": "Thế kỷ 3 TCN",
+        "year": " 207 TCN",
         "title": "Nhà nước Âu Lạc",
-        "content": "",
-        "thoiky":"sosu"
+        "content": "An Dương Vương thôn tính Văn Lang, thành lập quốc gia Âu Lạc. Âu Lạc được thành lập bởi An Dương Vương (Thục Phán) vào thế kỷ 3 TCN sau khi ông hợp nhất các bộ tộc Lạc Việt (nhà nước Văn Lang) và bộ tộc Âu Việt. Thành tựu nổi bật của thời kỳ Âu Lạc là việc xây dựng thành Cổ Loa (Hà Nội ngày nay), một công trình kiến trúc quân sự quan trọng để chống lại các cuộc xâm lược từ bên ngoài. Năm 179 TCN, nhà nước Âu Lạc bị quân Nam Việt do Triệu Đà chỉ huy đánh bại, kết thúc thời kỳ độc lập đầu tiên của Việt Nam.",
+        "thoiky": "sosu"
+    },
+    {
+        "year": "218TCN - 207TCN",
+        "title": "Chiến tranh Tần-Việt",
+        "content": "Chiến tranh Tần – Việt là cuộc kháng chiến chống nhà Tần mở rộng về phía nam của các bộ tộc Bách Việt ở vùng Hoa Nam, đây là các tộc người phân bố ở miền nam Trung hoa và Bắc Bộ Việt Nam hiện nay. Chiến dịch diễn ra 221 trước công nguyên (TCN) đến năm 214 TCN, nghĩa là nhà Tần thực hiện mở rộng lãnh thổ về phía nam ngay sau khi thống nhất Trung Quốc.",
+        "thoiky": "sosu"
+    },
+    {
+        "year": "179 TCN",
+        "title": "Triệu Đà xâm lược nước Âu Lạc, sáp nhập vào quốc gia Nam Việt",
+        "content": "Năm 179 TCN, Triệu Đà sáp nhập đất đai Âu Lạc vào Nam Việt, chia Âu Lạc thành hai quận là Giao Chỉ và Cửu Chân.",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "111 TCN",
+        "title": "Chiến tranh Hán-Nam Việt",
+        "content": "Chiến tranh Hán – Nam Việt là một cuộc chiến tranh giữa Nhà Hán (còn gọi là Nhà Tây Hán) và nước Nam Việt thời Nhà Triệu vào cuối thế kỷ 2 trước Công nguyên.",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "40",
+        "title": "khởi nghĩa Hai Bà Trưng",
+        "content": "Khởi nghĩa Hai Bà Trưng là cuộc khởi nghĩa chống Bắc thuộc đầu tiên trong lịch sử Việt Nam do hai chị em Trưng Trắc và Trưng Nhị lãnh đạo. Cuộc khởi nghĩa đã đánh đuổi được lực lượng cai trị nhà Đông Hán ra khỏi Giao Chỉ (tương đương một phần Quảng Tây, Trung Quốc và Bắc Bộ, Bắc Trung Bộ Việt Nam hiện nay), mang lại độc lập trong 3 năm cho người Việt tại đây.",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "42-43",
+        "title": "Chiến tranh Lĩnh Nam - Đông Hán",
+        "content": "Chiến tranh Hán-Việt 42-43 là tên gọi của cuộc chiến do tướng nhà Đông Hán Mã Viện chỉ huy chống lại quân nổi dậy của Hai Bà Trưng ở đất Việt năm 42-43.",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "156–160",
+        "title": "Khởi nghĩa Chu Đạt",
+        "content": "Cuộc khởi nghĩa Chu Đạt diễn ra từ năm 156 đến năm 160. Năm 156, Chu Đạt, người huyện Cư Phong, Cửu Chân (nay là xã Phú Hào-Thọ Phú, huyện Triệu Sơn, Thanh Hóa), nổi dậy chống chính quyền đô hộ nhà Đông Hán. ",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "178–181",
+        "title": "Khởi nghĩa Lương Long",
+        "content": "Khởi nghĩa Lương Long (178-181) do Lương Long (梁龍) người Giao Chỉ lãnh đạo nhân dân các quận Giao Chỉ, Cửu Chân, Nhật Nam, Hợp Phố chống lại chính quyền đô hộ nhà Đông Hán.",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "192",
+        "title": "Khu Liên khởi nghĩa",
+        "content": "Khu Liên khởi nghĩa, tách quận Nhật Nam thành lập quốc gia Lâm Ấp",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "229",
+        "title": "lập nước Đông Ngô",
+        "content": "23 tháng 6 năm 229 Tôn Quyền xưng đế, lập nước Đông Ngô, ly khai nhà Hán",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "246 - 248",
+        "title": "Khởi nghĩa Bà Triệu",
+        "content": "Cuộc khởi nghĩa của bà và Triệu Quốc Đạt bùng nổ vào nǎm 248 và được nhân dân trong quận Cửu Chân hưởng ứng nhiệt liệt và nhanh chóng lan tỏa ra quận Giao Chỉ. Bà làm hịch truyền đi khắp nơi, kể tội nhà Ngô và kêu gọi mọi người đứng dậy đánh đuổi quân Ngô. Từ núi rừng Ngàn Nưa, nghĩa quân Bà Triệu tấn công thành Tư Phố và đã mau chóng giành thắng lợi trọn vẹn. Bà Triệu cùng nghĩa quân vượt sông Mã xuống vùng Bồ Điền để xây dựng căn cứ địa. ",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "280",
+        "title": "Chiến tranh Tấn – Ngô",
+        "content": "Chiến tranh Tấn-Ngô 279-280 là cuộc chiến cuối cùng thời Tam Quốc trong lịch sử Trung Quốc. Vua Tây Tấn là Tư Mã Viêm phát động chiến tranh và nhanh chóng tiêu diệt nước Đông Ngô (được hình thành từ đầu thế kỷ 3) chỉ sau một chiến dịch. Cuộc chiến tranh này gắn liền với sự kiện nhà Tây Tấn thống nhất toàn quốc, thời Tam Quốc kết thúc.",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "420",
+        "title": "lập ra nhà Lưu Tống",
+        "content": "Lưu Dụ ép Tấn Cung Đế nhường ngôi, lập ra nhà Lưu Tống",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "468 - 485",
+        "title": "khởi nghĩa Lý Trường Nhân",
+        "content": "Lý Trường Nhân (chữ Hán: 李長仁, 440 - 478) là một thủ lĩnh địa phương, cát cứ Giao Châu, tự trị với chính quyền phong kiến phương Bắc trong lịch sử Việt Nam thời Bắc thuộc lần II.",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "479",
+        "title": "thành lập nhà Nam Tề",
+        "content": "479 Tiêu Đạo Thành phế Lưu Chuẩn tự làm vua, thành lập nhà Nam Tề",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "502",
+        "title": "thành lập nhà Lương",
+        "content": "Tiêu Diễn phế truất Tiêu Bảo Dung, thành lập nhà Lương",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "541",
+        "title": "khởi nghĩa Lý Bí",
+        "content": "Chiến tranh Tiền Lý - Lương là cuộc chiến bùng nổ từ năm 545 đến năm 550 kéo dài 5 năm do Triệu Quang Phục lãnh đạo chống quân Lương.",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "544",
+        "title": "Lý Bí thành lập quốc gia Vạn Xuân",
+        "content": "Tháng 2 năm 544, sau khi đánh bại quân nhà Lương, Lý Bí xưng là Hoàng đế và đặt tên nước là Vạn Xuân, đóng đô ở Ô Diên thành,Hạ Mỗ, huyện Đan Phượng, Hà Nội ngày nay.",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "602",
+        "title": "Chiến tranh Tùy–Vạn Xuân",
+        "content": "Chiến tranh Tùy–Vạn Xuân là một cuộc xung đột quân sự giữa nhà Tùy của Trung Quốc và nhà Tiền Lý quốc hiệu Vạn Xuân của Việt Nam vào năm 602.",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "687",
+        "title": "khởi nghĩa Lý Tự Tiên",
+        "content": "Lý Tự Tiên là người ở Giao Châu, bị Nhà Đường đô hộ từ năm 618 đến năm 905. Năm 679, nhà Đường lập ra An Nam đô hộ phủ, sử phương Bắc bắt đầu gọi Việt Nam là An Nam kể từ đó.",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "713 - 723",
+        "title": "khởi nghĩa Mai Hắc Đế",
+        "content": "Năm 722, khởi nghĩa bùng nổ. Kết quả: Mai Hắc Đế thua trận",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "776-791",
+        "title": "khởi nghĩa Phùng Hưng",
+        "content": "Giành quyền làm chủ trong 9 năm nhưng sau đó bị đàn áp.",
+        "thoiky": "bacthuoc"
+    },
+    {
+        "year": "905",
+        "title": "Khúc Thừa Dụ xây dựng chính quyền tự chủ",
+        "content": "Khúc Thừa Dụ ( 830 – 907) được suy tôn là Khúc Tiên Chủ, là tiết độ sứ người bản địa đầu tiên của Tĩnh Hải quân, đồng thời là người đặt cơ sở cho nền độc lập của dân tộc Việt sau hơn 1.000 năm thuộc Trung Quốc.",
+        "thoiky": "quanchu"
+    },
+    {
+        "year": "938 ",
+        "title": "Ngô Quyền đánh bại quân Nam Hán trên sông Bạch Đằng",
+        "content": "Trận sông Bạch Đằng năm 938 là một trận đánh giữa quân dân Tĩnh Hải quân (vào thời đó, Việt Nam chưa có quốc hiệu chính thức) do Ngô Quyền lãnh đạo đánh với quân Nam Hán trên sông Bạch Đằng. Kết quả là người Việt giành thắng lợi lớn nhờ kế sách cắm cọc nhọn dưới lòng sông Bạch Đằng của Ngô Quyền. Trước sự chiến đấu dũng mãnh của người Việt, quá nửa quân Nam Hán chết đuối, hoàng tử Nam Hán là Lưu Hoằng Tháo cũng tử trận, Đây là một trận đánh quan trọng trong lịch sử Việt Nam. Nó đánh dấu cho việc chấm dứt hơn 1000 năm Bắc thuộc của Việt Nam, nối lại quốc thống cho người Việt.",
+        "thoiky": "quanchu"
+    },
+    {
+        "year": "939",
+        "title": "Ngô Quyền xưng vương, kinh đô Cổ Loa",
+        "content": "Sau chiến thắng trận sông Bạch Đằng, Ngô Quyền lên ngôi vua, tái lập đất nước.",
+        "thoiky": "quanchu"
+    },
+    {
+        "year": "944 - 968",
+        "title": "Loạn 12 sứ quân",
+        "content": "Loạn 12 sứ quân là một giai đoạn nội chiến diễn ra vào cuối thời nhà Ngô, kéo dài từ năm 944 sau khi Ngô Quyền mất cho đến khi Đinh Bộ Lĩnh thống nhất đất nước, lập ra nhà Đinh năm 968, được ghi chép trong phần Bản kỷ Ngô sứ quân Ngô Xương Xí.",
+        "thoiky": "quanchu"
+    },
+    {
+        "year": "968",
+        "title": "Đinh Bộ Lĩnh xưng đế, thành lập quốc gia Đại Cồ Việt, kinh đô Hoa Lư",
+        "content": "Đại Cồ Việt là nhà nước mở đầu cho thời đại độc lập, tự chủ, xây dựng chế độ quân chủ tập quyền ở Việt Nam. Đinh Bộ Lĩnh mở nước, lập đô, lấy niên hiệu với tư cách người đứng đầu một vương triều bề thế: Thời kỳ phục quốc của Việt Nam, từ họ Khúc chỉ xưng làm Tiết độ sứ, tới Ngô Quyền xưng vương và tới vua Đinh xưng làm hoàng đế. ",
+        "thoiky": "quanchu"
     }
 ]
