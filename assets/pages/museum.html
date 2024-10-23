@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gallery with Popup</title>
+    <link rel="stylesheet" href="../css/museum.css">
 </head>
 <body>
-    <iframe src="https://vnmh.egal.vn/tours/nghethuatchampa/" style="width: 100vw; height: 100vh; border: none;"></iframe>
+    <div class="gallery-container">
+        <div class="column">
+            <div class="image-card" onclick="openPopup()">
+                <img src="../image/anhcovn.jpg" alt="Image 1">
+                <h3>Title of Image 1</h3>
+                <p>Description of image 1 goes here.</p>
+            </div>
+            <!-- Add more image-card divs as needed -->
+        </div>
+        <div class="column">
+            <div class="image-card" onclick="openPopup()">
+                <img src="../image/anhcovn.jpg" alt="Image 2">
+                <h3>Title of Image 2</h3>
+                <p>Description of image 2 goes here.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup Container -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <iframe src="https://vnmh.egal.vn/tours/nghethuatchampa/" style="width: 100%; height: 100%; border: none;"></iframe>
+        </div>
+    </div>
+
+    <script src="../js/museum.js"></script>
 </body>
 </html>
