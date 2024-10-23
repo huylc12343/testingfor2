@@ -1,0 +1,237 @@
+THỜI KỲ TIỀN SỬ
+├── Thời kỳ đồ đá
+│   ├── Đồ đá cũ
+│   │   ├── Văn hóa Soi Nhụ (25.000 TCN–7.000 TCN)
+│   │   ├── Văn hóa Ngườm (23.000 TCN)
+│   │   ├── Văn hóa Tràng An (23.000 TCN–1.000 TCN)
+│   │   ├── Văn hóa Sơn Vi (20.000 TCN–12.000 TCN)
+│   └── Đồ đá mới
+│       ├── Văn hóa Hòa Bình (12.000 TCN–10.000 TCN)
+│       ├── Văn hóa Bắc Sơn (10.000 TCN–8.000 TCN)
+│       ├── Văn hóa Quỳnh Văn (8.000 TCN–6.000 TCN)
+│       ├── Văn hóa Cái Bèo (7.000 TCN–5.000 TCN)
+│       ├── Văn hóa Đa Bút (6.000 TCN–5.000 TCN)
+│       └── Nền văn minh lúa nước
+├── Thời kỳ đồ đồng-đá
+│   ├── Văn hóa Hạ Long (3.000 TCN–1.500 TCN)
+│   └── Văn hóa Phùng Nguyên (2.000 TCN–1.500 TCN)
+├── Thời kỳ đồ đồng
+│   ├── Văn hóa Đồng Đậu (1.500 TCN–1.000 TCN)
+│   └── Văn hóa Gò Mun (1.000 TCN–600 TCN)
+├── Thời kỳ đồ sắt
+│   ├── Văn hóa Sa Huỳnh (1.000 TCN–200)
+│   ├── Văn hóa Đồng Nai (1.000 TCN–0)
+│   ├── Văn hóa Đông Sơn (700 TCN–100)
+│   └── Văn hóa Óc Eo (1–630)
+└── Tóm tắt
+    └── Thời kỳ tiền sử tạo nền tảng cho các nền văn minh cổ đại và nhà nước đầu tiên.
+THỜI KÌ SƠ SỬ
+├── Thế kỷ VII TCN: Quốc gia Văn Lang
+│   ├── Vua Hùng thống nhất bộ tộc
+│   ├── Kinh đô: Phong Châu (Phú Thọ)
+│   └── Xã hội: Liên minh bộ lạc, chế độ mẫu hệ, tôn giáo sơ khai
+├── 207 TCN: Quốc gia Âu Lạc
+│   ├── An Dương Vương (Thục Phán) thành lập
+│   ├── Thành Cổ Loa xây dựng
+│   └── Năm 179 TCN: Bị quân Nam Việt (Triệu Đà) thôn tính
+└── 218 TCN - 207 TCN: Chiến tranh Tần-Việt
+    └── Kháng chiến chống nhà Tần mở rộng về phía nam
+THỜI KÌ PHONG KIẾN ĐỘC LẬP
+├── Tự chủ
+│   ├── 905: Khúc Thừa Dụ xây dựng chính quyền tự chủ
+│   │   └── Khúc Tiên Chủ, tiết độ sứ đầu tiên của Tĩnh Hải quân
+│   └── 938: Trận Bạch Đằng
+│       ├── Ngô Quyền đánh bại quân Nam Hán
+│       ├── Kế sách cắm cọc nhọn dưới lòng sông
+│       └── Chấm dứt hơn 1000 năm Bắc thuộc
+├── Nhà Ngô
+│   ├── 939: Ngô Quyền xưng vương, kinh đô Cổ Loa
+│   │   ├── Ngô Quyền là vua đầu tiên của nhà Ngô
+│   │   └── Cổ Loa: Tòa thành cổ nhất, quy mô lớn
+│   └── 944 - 968: Loạn 12 sứ quân
+│       ├── Nội chiến sau khi Ngô Quyền mất
+│       └── Kết thúc khi Đinh Bộ Lĩnh thống nhất đất nước
+├── Nhà Đinh
+│   ├── 968: Đinh Bộ Lĩnh xưng đế, thành lập quốc gia Đại Cồ Việt
+│   │   ├── Kinh đô: Hoa Lư
+│   │   └── Mở đầu nhà nước phong kiến trung ương tập quyền
+│   ├── 970: Đúc tiền Thái Bình hưng bảo
+│   │   └── Đồng tiền đầu tiên của Việt Nam
+│   └── 979: Đinh Bộ Lĩnh bị sát hại
+│       └── Dẫn đến sự suy yếu của triều đại Đinh
+├── Nhà Tiền Lê
+│   ├── 980: Lê Hoàn lên ngôi, thành lập nhà Tiền Lê
+│   └── 981: Chiến tranh Tống - Việt
+│       ├── Đại Cồ Việt thắng lợi trước quân Tống
+│       └── Được công nhận bởi nhà Tống
+├── Nhà Lý
+│   ├── 1009: Lý Công Uẩn lên ngôi, thành lập nhà Lý
+│   ├── 1010: Dời đô về Thăng Long
+│   │   └── Mở đầu cho sự phát triển lâu dài của nhà Lý
+│   ├── 1054: Đổi tên nước thành Đại Việt
+│   ├── 1069: Chiến tranh Việt-Chiêm
+│   │   └── Đại Việt chiếm 3 châu của Chiêm Thành
+│   ├── 1075-1077: Chiến tranh Tống-Việt
+│   │   └── Lý Thường Kiệt tấn công trước, thắng lợi cuối cùng
+│   └── 1077: Trận Như Nguyệt
+│       └── Đẩy lùi quân xâm lược Tống
+├── Nhà Trần
+│   ├── 1226: Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh
+│   ├── 1258: Chiến tranh Nguyên Mông–Đại Việt lần 1
+│   ├── 1282: Hội nghị Bình Than
+│   │   └── Quyết định chiến lược kháng chiến
+│   ├── 1284: Hội nghị Diên Hồng
+│   │   └── Trưng cầu ý kiến về việc chống xâm lược
+│   └── 1285-1288: Chiến tranh Nguyên Mông–Đại Việt lần 2 và 3
+│       └── Đại Việt thắng lợi, không còn xung đột sau này
+├── Nhà Hồ
+│   ├── 1400: Hồ Quý Ly lên ngôi, thành lập nhà Hồ
+│   ├── 1400-1407: Chiến tranh Việt-Chiêm
+│   ├── 1406-1407: Chiến tranh Đại Ngu–Đại Minh
+│   │   └── Nhà Minh xâm lược, nhà Hồ bị đánh bại
+├── Nhà Mạc
+│   ├── 1527: Mạc Đăng Dung ép Lê Cung Hoàng nhường ngôi
+│   ├── 1533: Nguyễn Kim lập Lê Ninh làm vua, tái lập nhà Lê
+│   └── 1533–1677: Chiến tranh Lê–Mạc
+│       ├── 1533–1592: Nhà Mạc làm chủ Bắc Bộ, nhà Lê ở Thanh Hóa
+│       └── 1593–1677: Tàn dư họ Mạc rút lên Cao Bằng
+├── Nhà Lê trung hưng
+│   ├── 1592: Đánh bại nhà Mạc, lên nắm quyền
+│   ├── 1597: Lê Thế Tông dời đô về Đông Kinh
+│   ├── 1558: Nguyễn Hoàng vào trấn thủ Thuận Hóa
+│   ├── 1627–1672: Trịnh – Nguyễn phân tranh
+│   └── 1683: Đánh bại hoàn toàn nhà Mạc
+├── Nhà Tây Sơn
+│   ├── 1771: Khởi nghĩa Tây Sơn
+│   ├── 1774–1775: Chiến tranh Bình Nam
+│   ├── 1777: Nguyễn Ánh xưng vương
+│   ├── 1778: Nguyễn Nhạc xưng Hoàng đế, lập nhà Tây Sơn
+│   ├── 1785: Phá tan quân Xiêm tại Rạch Gầm – Xoài Mút
+│   ├── 1788: Nguyễn Huệ xưng đế, đặt niên hiệu Quang Trung
+│   └── 1789: Trận Ngọc Hồi – Đống Đa, đẩy lui quân Thanh
+├── Nhà Nguyễn
+│   ├── 1802: Nguyễn Ánh đánh bại nhà Tây Sơn, lên ngôi vua
+│   ├── 1803–1855: Nổi dậy Đá Vách
+│   ├── 1804: Đổi tên nước thành Việt Nam
+│   ├── 1821–1827: Khởi nghĩa Phan Bá Vành
+│   ├── 1833–1834: Chiến tranh Việt–Xiêm
+│   ├── 1836: Thôn tính Chân Lạp
+│   ├── 1839: Đổi tên nước thành Đại Nam
+│   ├── 1841: Rút quân khỏi Trấn Tây Thành
+│   └── 1858–1884: Chiến tranh Pháp-Đại Nam
+│       ├── 1861–1865: Bạo loạn ven biển
+│       ├── 1866: Chính biến chày vôi
+        └── 1867: Cắt Nam Kỳ lục tỉnh nhượng cho Pháp
+THỜI KÌ PHÁP THUỘC
+├── 1884
+│   ├── 6 tháng 6: Hòa ước Giáp Thân
+│   │   └── Kết thúc Chiến tranh Pháp–Đại Nam
+│   └── Nhà Nguyễn chấp nhận sự bảo hộ của Pháp
+├── 1885–1895: Phong trào Cần Vương
+│   └── Được đề xướng bởi Tôn Thất Thuyết nhân danh vua Hàm Nghi
+├── 1887
+│   ├── 17 tháng 10: Thành lập Liên bang Đông Dương
+│   │   └── Bao gồm Bắc Kỳ, Trung Kỳ, Nam Kỳ, Campuchia
+├── 1893
+│   └── 3 tháng 10: Sáp nhập Lào vào Liên bang Đông Dương
+├── 1898
+│   └── 12 tháng 4: Sáp nhập Quảng Châu Loan vào Liên bang Đông Dương
+├── 1902
+│   └── Dời thủ đô Liên bang Đông Dương về Hà Nội
+├── 1906–1908: Phong trào Duy Tân
+│   └── Chủ trương bất bạo động, nâng cao dân trí, cải tổ xã hội
+├── 1908: Phong trào chống sưu thuế Trung Kỳ
+├── 1914–1918: Chiến tranh thế giới thứ nhất
+│   └── Khoảng 100.000 người Việt bị ép sang châu Âu chiến đấu cho Pháp
+├── 1917: Khởi nghĩa Thái Nguyên
+│   └── Do Trịnh Văn Cấn chỉ huy, chống lại chính quyền Bảo hộ
+├── 1919
+│   └── 18 tháng 6: Nguyễn Ái Quốc gửi Yêu sách đến Hội nghị Versailles
+├── 1930
+│   ├── 3 tháng 2: Hợp nhất ba tổ chức cộng sản thành Đảng Cộng sản Việt Nam
+│   └── 1930–1931: Phong trào Xô Viết Nghệ Tĩnh
+│       └── Đấu tranh của công nhân và nông dân ở Nghệ An và Hà Tĩnh
+├── 1939
+│   └── Khoảng 20.000 thanh niên Việt Nam bị cưỡng bức phục vụ Pháp
+├── 1940
+│   ├── 30 tháng 8: Quân đội Nhật Bản tiến vào Đông Dương
+│   └── 25 tháng 9: Chính phủ Pháp chấp nhận yêu sách của Nhật
+├── 1944
+│   └── 22 tháng 12: Thành lập Việt Nam Tuyên truyền Giải phóng quân
+├── 1945
+│   ├── Tháng 3: Nhật đảo chính thực dân Pháp
+│   ├── 11 tháng 3: Thành lập Đế quốc Việt Nam
+│   ├── 14 tháng 8 - 30 tháng 8: Cách mạng tháng Tám
+│   │   └── Tổng khởi nghĩa, buộc Bảo Đại thoái vị
+│   ├── 23 tháng 8: Đế quốc Việt Nam sụp đổ
+│   └── 30 tháng 8: Bảo Đại thoái vị
+THỜI KÌ HIỆN ĐẠI
+├── 1945
+│   ├── 2 tháng 9: Hồ Chí Minh tuyên bố độc lập
+│   │   └── Thành lập nước Việt Nam Dân chủ Cộng hòa
+│   ├── 8 tháng 9: Phát động phong trào Bình dân học vụ
+│   └── 23 tháng 9: Quân Pháp nổ súng tại Sài Gòn
+│       └── Bắt đầu cuộc chiến tranh xâm lược Việt Nam lần 2
+├── 1946
+│   ├── 6 tháng 1: Tổng tuyển cử bầu Quốc hội đầu tiên
+│   ├── 26 tháng 3: Pháp lập Cộng hòa Tự trị Nam Kỳ
+│   ├── 14 tháng 9: Tạm ước Việt - Pháp
+│   └── 9 tháng 11: Thông qua Hiến pháp 1946
+├── 1947
+│   └── 7 tháng 10 - 22 tháng 12: Chiến dịch Việt Bắc Thu - Đông 1947
+├── 1949
+│   └── 14 tháng 6: Pháp lập Quốc gia Việt Nam, quốc trưởng Bảo Đại
+├── 1950
+│   ├── 8 tháng 5: Mỹ bắt đầu can thiệp quân sự vào Việt Nam
+│   └── 16 tháng 9–17 tháng 10: Chiến dịch Biên giới
+├── 1954
+│   ├── 13 tháng 3 - 7 tháng 5: Chiến dịch Điện Biên Phủ
+│   ├── 20 tháng 7: Hiệp định Genève
+│   └── 10 tháng 10: Giải phóng Thủ đô
+├── 1955
+│   └── Ngô Đình Diệm phế truất Bảo Đại, lập Việt Nam Cộng hòa
+├── 1959–1960: Phong trào Đồng khởi
+├── 1960
+│   └── 20 tháng 12: Thành lập Mặt trận Dân tộc Giải phóng miền Nam Việt Nam
+├── 1961
+│   ├── 15 tháng 12: Thành lập Quân Giải phóng miền Nam Việt Nam
+│   └── 1961–1965: Chiến dịch Chiến tranh đặc biệt
+├── 1963
+│   └── Đảo chính lật đổ chính quyền Ngô Đình Diệm
+├── 1965
+│   ├── 8 tháng 3: Mỹ bắt đầu đưa quân vào miền Nam Việt Nam
+│   └── 1965–1968: Chiến dịch Chiến tranh cục bộ
+├── 1968–1973: Chiến dịch Việt Nam hóa chiến tranh
+├── 1969
+│   ├── 8 tháng 6: Thành lập Cộng hòa Miền Nam Việt Nam
+│   └── 2 tháng 9: Chủ tịch Hồ Chí Minh từ trần
+├── 1972
+│   └── 18 tháng 12 - 30 tháng 12: Chiến dịch Điện Biên Phủ trên không
+├── 1973
+│   └── 27 tháng 1: Hiệp định Paris, Mỹ rút quân khỏi Việt Nam
+├── 1974
+│   └── 19 tháng 1: Hải chiến Hoàng Sa
+├── 1975
+│   ├── 26 tháng 4 - 2 tháng 5: Chiến dịch Hồ Chí Minh
+│   └── 30 tháng 4: Chính phủ Việt Nam Cộng hòa đầu hàng
+├── 1976
+│   ├── 2 tháng 7: Tái thống nhất, đổi tên thành Cộng hòa xã hội chủ nghĩa Việt Nam
+│   └── 1977: Gia nhập Liên Hợp Quốc
+├── 1975–1979: Chiến tranh biên giới Tây Nam
+├── 1979: Chiến tranh biên giới phía Bắc
+├── 1986
+│   └── 18 tháng 12: Bắt đầu Đổi Mới
+├── 1988
+│   └── 14 tháng 3: Xung đột Trường Sa
+├── 1991
+│   └── 7 tháng 11: Bình thường hóa quan hệ với Trung Quốc
+├── 1995
+│   ├── 11 tháng 7: Bình thường hóa quan hệ với Mỹ
+│   └── 28 tháng 7: Gia nhập ASEAN
+├── 1998
+│   └── 14 tháng 11: Gia nhập APEC
+├── 2007
+│   └── 11 tháng 1: Gia nhập WTO
+├── 2013
+│   └── 28 tháng 11: Thông qua Hiến pháp 2013
+└── 2020–2023: Đại dịch COVID-19

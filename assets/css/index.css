@@ -1,0 +1,140 @@
+/* Body styling */
+body {
+    margin: 0;
+    background-color: #222; /* Màu nền */
+    color: white; /* Màu chữ */
+    font-family: 'Open Sans', sans-serif;
+    display: flex; /* Sử dụng Flexbox để căn giữa timeline */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100vh; /* Chiều cao bằng 100% của viewport */
+}
+
+/* Timeline styling */
+.timeline {
+    display: flex; /* Thiết lập Flexbox cho cuộn ngang */
+    overflow-x: auto; /* Cho phép cuộn ngang nếu cần */
+    padding: 20px; /* Khoảng cách xung quanh */
+    height: 80vh; /* Chiều cao của timeline */
+    scroll-snap-type: x mandatory; /* Thêm hiệu ứng cuộn snapping */
+    justify-content: center; /* Căn giữa các phần tử bên trong */
+}
+
+/* Section styling */
+.section {
+    min-width: 300px; /* Đặt chiều rộng tối thiểu */
+    max-width: 300px; /* Đặt chiều rộng tối đa */
+    margin: 0 10px; /* Khoảng cách giữa các phần */
+    padding: 20px; /* Khoảng cách bên trong */
+    border-radius: 8px; /* Bo góc */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Đổ bóng */
+    text-align: center; /* Căn giữa nội dung */
+    font-size: 2em; /* Kích thước chữ */
+    transition: transform 0.3s ease-in-out; /* Hiệu ứng hover */
+    scroll-snap-align: center; /* Căn giữa mỗi phần khi cuộn */
+}
+
+/* Hover effect */
+.section:hover {
+    transform: scale(1.05); /* Phóng to khi hover */
+}
+
+/* Link styling */
+.section .dir {
+    display: block;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+}
+
+/* Background colors for each section */
+.lsvn {
+    background-color: #4CAF50; /* Xanh lá */
+}
+
+.lsqt {
+    background-color: #2196F3; /* Xanh dương */
+}
+
+.tlls {
+    background-color: #FF9800; /* Cam */
+}
+
+.shop {
+    background-color: darksalmon;
+}
+
+/* Note styling */
+.note {
+    margin-top: 10px;
+    font-size: 1.2em; /* Kích thước chữ ghi chú */
+    color: #FFD700; /* Màu vàng cho ghi chú */
+}
+
+/* Image styling */
+.section img {
+    border-radius: 50%; /* Bo tròn ảnh */
+    height: 200px; /* Chiều cao cố định của ảnh */
+    width: 200px; /* Chiều rộng cố định của ảnh */
+    object-fit: cover; /* Ảnh lấp đầy khung mà không bị méo */
+    margin: 0 auto; /* Căn giữa */
+    display: block; /* Đảm bảo ảnh là block để căn giữa */
+    box-shadow: 0 10px 30px rgb(0 0 0 / 15%), 0 1px 4px rgb(0 0 0 / 15%), 0 1px 0 rgb(0 0 0 / 7%);
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 2em;
+    }
+    .section {
+        font-size: 1.5em;
+        min-width: 200px; /* Giảm kích thước tối thiểu */
+        max-width: 200px; /* Đảm bảo khung nhỏ hơn trên màn hình bé */
+    }
+    .section img {
+        width: 100px; /* Kích thước ảnh nhỏ hơn */
+        height: 100px;
+    }
+}
+
+/* Modal popup styling */
+.modal-popup {
+    display: none; /* Ẩn mặc định */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Màu nền tối */
+    display: flex; /* Căn giữa popup */
+    justify-content: center; /* Căn giữa ngang */
+    align-items: center; /* Căn giữa dọc */
+}
+
+/* Modal content styling */
+.modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+.modal-content img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Close button styling */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 2em;
+    color: #000;
+}

@@ -1,0 +1,486 @@
+{
+    "Thời kỳ tiền sử": {
+        "Thời kỳ đồ đá": {
+            "Đồ đá cũ": [
+                {
+                    "year": "25.000 TCN–7.000 TCN",
+                    "title": "Văn hóa Soi Nhụ",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                },
+                {
+                    "year": "23.000 TCN",
+                    "title": "Văn hóa Ngườm",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                },
+                {
+                    "year": "23.000 TCN–1.000 TCN",
+                    "title": "Văn hóa Tràng An",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                },
+                {
+                    "year": "20.000 TCN–12.000 TCN",
+                    "title": "Văn hóa Sơn Vi",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ],
+            "Đồ đá mới": [
+                {
+                    "year": "12.000 TCN–10.000 TCN",
+                    "title": "Văn hóa Hòa Bình",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                },
+                {
+                    "year": "10.000 TCN–8.000 TCN",
+                    "title": "Văn hóa Bắc Sơn",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                },
+                {
+                    "year": "8.000 TCN–6.000 TCN",
+                    "title": "Văn hóa Quỳnh Văn",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                },
+                {
+                    "year": "7.000 TCN–5.000 TCN",
+                    "title": "Văn hóa Cái Bèo",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                },
+                {
+                    "year": "6.000 TCN–5.000 TCN",
+                    "title": "Văn hóa Đa Bút",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ]
+        },
+        "Thời kỳ đồ đồng-đá": {
+            "Văn hóa Hạ Long": [
+                {
+                    "year": "3.000 TCN–1.500 TCN",
+                    "title": "Văn hóa Hạ Long",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ],
+            "Văn hóa Phùng Nguyên": [
+                {
+                    "year": "2.000 TCN–1.500 TCN",
+                    "title": "Văn hóa Phùng Nguyên",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ]
+        },
+        "Thời kỳ đồ đồng": {
+            "Văn hóa Đồng Đậu": [
+                {
+                    "year": "1.500 TCN–1.000 TCN",
+                    "title": "Văn hóa Đồng Đậu",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ],
+            "Văn hóa Gò Mun": [
+                {
+                    "year": "1.000 TCN–600 TCN",
+                    "title": "Văn hóa Gò Mun",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ]
+        },
+        "Thời kỳ đồ sắt": {
+            "Văn hóa Sa Huỳnh": [
+                {
+                    "year": "1.000 TCN–200",
+                    "title": "Văn hóa Sa Huỳnh",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ],
+            "Văn hóa Đồng Nai": [
+                {
+                    "year": "1.000 TCN–0",
+                    "title": "Văn hóa Đồng Nai",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ],
+            "Văn hóa Đông Sơn": [
+                {
+                    "year": "700 TCN–100",
+                    "title": "Văn hóa Đông Sơn",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ],
+            "Văn hóa Óc Eo": [
+                {
+                    "year": "1–630",
+                    "title": "Văn hóa Óc Eo",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ]
+        },
+        "Tóm tắt": [
+            {
+                "title": "Tóm tắt",
+                "content": "Thời kỳ tiền sử tạo nền tảng cho các nền văn minh cổ đại và nhà nước đầu tiên."
+            }
+        ]
+    },
+    "Thời kỳ sơ sử": {
+        "Thế kỷ VII TCN": {
+            "Quốc gia Văn Lang": [
+                {
+                    "year": "",
+                    "title": "Vua Hùng thống nhất bộ tộc",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                },
+                {
+                    "year": "",
+                    "title": "Kinh đô: Phong Châu (Phú Thọ)",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                },
+                {
+                    "year": "",
+                    "title": "Xã hội: Liên minh bộ lạc, chế độ mẫu hệ, tôn giáo sơ khai",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ]
+        },
+        "207 TCN": {
+            "Quốc gia Âu Lạc": [
+                {
+                    "year": "",
+                    "title": "An Dương Vương (Thục Phán) thành lập",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                },
+                {
+                    "year": "",
+                    "title": "Thành Cổ Loa xây dựng",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                },
+                {
+                    "year": "Năm 179 TCN",
+                    "title": "Bị quân Nam Việt (Triệu Đà) thôn tính",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ]
+        },
+        "218 TCN - 207 TCN": {
+            "Chiến tranh Tần-Việt": [
+                {
+                    "year": "",
+                    "title": "Kháng chiến chống nhà Tần mở rộng về phía nam",
+                    "content": "",
+                    "sound": "soundtest.mp3",
+                    "image": "1.jpg",
+                    "isleaf": true
+                }
+            ]
+        }
+    },
+    "Thời kỳ phong kiến độc lập": {
+        "Tự chủ": [
+            {
+                "year": "905",
+                "title": "Khúc Thừa Dụ xây dựng chính quyền tự chủ",
+                "content": "Khúc Tiên Chủ, tiết độ sứ đầu tiên của Tĩnh Hải quân.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "938",
+                "title": "Trận Bạch Đằng",
+                "content": "Ngô Quyền đánh bại quân Nam Hán với kế sách cắm cọc nhọn dưới lòng sông.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            }
+        ],
+        "Nhà Ngô": [
+            {
+                "year": "939",
+                "title": "Ngô Quyền xưng vương, kinh đô Cổ Loa",
+                "content": "Ngô Quyền là vua đầu tiên của nhà Ngô.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "944",
+                "title": "Ngô Xương Ngập nối ngôi",
+                "content": "Nhà Ngô bước vào giai đoạn khủng hoảng, cuối cùng dẫn đến sự sụp đổ.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            }
+        ],
+        "Nhà Đinh": [
+            {
+                "year": "968",
+                "title": "Đinh Bộ Lĩnh thống nhất đất nước",
+                "content": "Đinh Bộ Lĩnh lên ngôi vua, đặt tên nước là Đại Cồ Việt.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "979",
+                "title": "Năm 979, Đinh Tiên Hoàng bị ám sát",
+                "content": "Đinh Tiên Hoàng chết, đất nước bị phân chia.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            }
+        ],
+        "Nhà Lê sơ": [
+            {
+                "year": "1428",
+                "title": "Lê Lợi đánh bại quân Minh",
+                "content": "Lê Lợi lên ngôi vua, lập lại nhà Lê.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "1471",
+                "title": "Nhà Lê mở rộng lãnh thổ vào miền Trung",
+                "content": "Tiêu diệt Champa và mở rộng biên giới.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            }
+        ],
+        "Nhà Trần": [
+            {
+                "year": "1225",
+                "title": "Trần Thủ Độ đưa Trần Thị Dung lên làm Hoàng hậu",
+                "content": "Bắt đầu thời kỳ nhà Trần.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "1258",
+                "title": "Trận Như Nguyệt",
+                "content": "Trần Thánh Tông đánh bại quân Nguyên lần đầu tiên.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "1288",
+                "title": "Trận Bạch Đằng",
+                "content": "Trần Hưng Đạo đánh bại quân Nguyên lần thứ ba.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            }
+        ],
+        "Nhà Hồ": [
+            {
+                "year": "1400",
+                "title": "Hồ Quý Ly lật đổ nhà Trần",
+                "content": "Thành lập nhà Hồ, cải cách chính trị và kinh tế.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "1407",
+                "title": "Bị quân Minh xâm lược",
+                "content": "Kết thúc nhà Hồ, Việt Nam trở thành thuộc địa của Trung Quốc.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            }
+        ],
+        "Tóm tắt": [
+            {
+                "title": "Tóm tắt",
+                "content": "Thời kỳ phong kiến độc lập là thời kỳ quan trọng trong việc xây dựng quốc gia tự chủ và đấu tranh chống ngoại xâm."
+            }
+        ]
+    },
+    "Thời kỳ thuộc địa": {
+        "Thời kỳ Pháp thuộc": [
+            {
+                "year": "1858",
+                "title": "Pháp đánh chiếm Đà Nẵng",
+                "content": "Bắt đầu thời kỳ Pháp thuộc ở Việt Nam.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "1884",
+                "title": "Hiệp ước Patenôtre",
+                "content": "Thực hiện chính sách cai trị thực dân ở Bắc Kỳ.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "1930",
+                "title": "Đảng Cộng sản Việt Nam ra đời",
+                "content": "Đánh dấu bước ngoặt trong phong trào cách mạng Việt Nam.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            }
+        ],
+        "Kháng chiến chống Pháp": [
+            {
+                "year": "1945",
+                "title": "Cách mạng tháng Tám",
+                "content": "Dân tộc Việt Nam giành lại độc lập, thành lập Chính phủ lâm thời.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            }
+        ]
+    },
+    "Thời kỳ kháng chiến chống Mỹ": {
+        "Kháng chiến chống Mỹ": [
+            {
+                "year": "1954",
+                "title": "Chiến thắng Điện Biên Phủ",
+                "content": "Chấm dứt sự thống trị của thực dân Pháp.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "1960-1975",
+                "title": "Cuộc kháng chiến chống Mỹ cứu nước",
+                "content": "Giai đoạn quyết liệt trong lịch sử Việt Nam với nhiều trận đánh lớn.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "1975",
+                "title": "Giải phóng miền Nam",
+                "content": "Miền Nam hoàn toàn giải phóng, thống nhất đất nước.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            }
+        ]
+    },
+    "Thời kỳ đổi mới": {
+        "Đổi mới": [
+            {
+                "year": "1986",
+                "title": "Đại hội VI",
+                "content": "Khởi đầu thời kỳ đổi mới, chuyển đổi nền kinh tế từ kế hoạch hóa tập trung sang kinh tế thị trường.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "2000",
+                "title": "Việt Nam gia nhập ASEAN",
+                "content": "Tham gia vào tổ chức khu vực, thúc đẩy hội nhập quốc tế.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            }
+        ],
+        "Phát triển kinh tế - xã hội": [
+            {
+                "year": "2001",
+                "title": "Việt Nam gia nhập WTO",
+                "content": "Thúc đẩy hội nhập kinh tế toàn cầu.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "2020",
+                "title": "Đại dịch COVID-19",
+                "content": "Ảnh hưởng sâu sắc đến kinh tế - xã hội, cần nhiều biện pháp ứng phó.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            },
+            {
+                "year": "2023",
+                "title": "Hậu đại dịch",
+                "content": "Kinh tế phục hồi, tiếp tục phát triển, tập trung vào chuyển đổi số và phát triển bền vững.",
+                "sound": "soundtest.mp3",
+                "image": "1.jpg",
+                "isleaf": true
+            }
+        ]
+    },
+    "Tóm tắt": [
+        {
+            "title": "Thời kỳ hiện đại",
+            "content": "Việt Nam đã trải qua nhiều giai đoạn lịch sử quan trọng, từ thời kỳ thuộc địa đến thời kỳ đổi mới, hướng tới phát triển bền vững trong tương lai."
+        }
+    ]
+}
