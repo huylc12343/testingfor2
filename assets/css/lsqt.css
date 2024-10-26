@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.image-display {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Hiển thị 3 cột */
+    gap: 20px; /* Khoảng cách giữa các ảnh */
+    margin-top: 20px;
+    justify-items: center; /* Căn giữa các ảnh trong mỗi cột */
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%; /* Ảnh sẽ chiếm toàn bộ chiều rộng của container */
+    max-width: 300px;
+}
+
+.image-container p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Popup Video Styles */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.popup-content video {
+    width: 100%;
+    height: auto;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiển thị Ảnh theo Category</title>
+    <link rel="stylesheet" href="../css/lsqt.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tỉnh Quảng Trị</h1>
+        <div class="buttons">
+            <button onclick="showCategory('category1')">Trình chiếu video</button>
+            <button onclick="showCategory('category2')">Thông tin</button>
+        </div>
+        <div id="imageDisplay" class="image-display">
+            <!-- Ảnh sẽ hiển thị ở đây -->
+        </div>
+        <!-- Popup Video -->
+        <div id="videoPopup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <video id="popupVideo" controls></video>
+            </div>
+        </div>
+    </div>
+    <script src="../js/lsqt.js"></script>
+</body>
+
+</html>
