@@ -53,7 +53,7 @@
                 thoikyh1= " thuộc Pháp";
             }else if(thoiky==="khangchien"){
                 thoikyh1= " kháng chiến";
-            }else{
+            }else if(thoiky==="doimoi"){
                 thoikyh1=" mở cửa"
             }
             // Xác định đường dẫn đến file JSON dựa vào tham số
@@ -92,7 +92,7 @@
                         modalContent.append('<span class="close-btn" onclick="closePopup(\'popup-' + item.year + '\')">&times;</span>');
                         modalContent.append('<h2>' + item.title + '</h2>');
                         modalContent.append('<p>' + item.content + '</p>');
-                        modalContent.append('<audio controls><source src="../audio/soundtest.mp3" type="audio/mpeg"></audio>');
+                        //modalContent.append('<audio controls><source src="../audio/soundtest.mp3" type="audio/mpeg"></audio>');
                         modal.append(modalContent); 
                         $('#modal-popup').append(modal);
                     });

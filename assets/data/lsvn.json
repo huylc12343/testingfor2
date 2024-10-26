@@ -654,39 +654,261 @@
         "thoiky": "phapthuoc"
     },
     {
-        "year": "1919",
-        "title": "18 tháng 6 Nguyễn Ái Quốc gửi Yêu sách của nhân dân An Nam tới Hội nghị Hòa bình Versailles",
-        "content": "",
-        "thoiky": "phapthuoc"
+        "year": "2/9/1945",
+        "title": "thành lập nước Việt Nam Dân chủ Cộng hòa",
+        "content": "2 tháng 9 Hồ Chí Minh tuyên bố độc lập, thành lập nước Việt Nam Dân chủ Cộng hòa",
+        "thoiky": "khangchien"
     },
     {
-        "year": "1919",
-        "title": "18 tháng 6 Nguyễn Ái Quốc gửi Yêu sách của nhân dân An Nam tới Hội nghị Hòa bình Versailles",
+        "year": "8/9/1945",
+        "title": "8 tháng 9 phát động phong trào Bình dân học vụ",
         "content": "",
-        "thoiky": "phapthuoc"
+        "thoiky": "khangchien"
     },
     {
-        "year": "1919",
-        "title": "18 tháng 6 Nguyễn Ái Quốc gửi Yêu sách của nhân dân An Nam tới Hội nghị Hòa bình Versailles",
-        "content": "",
-        "thoiky": "phapthuoc"
+        "year": "23/9/1945",
+        "title": "Pháp nổ súng tại Sài Gòn",
+        "content": "23 tháng 9 quân Pháp nổ súng tại Sài Gòn, bắt đầu cuộc chiến tranh xâm lược Việt Nam lần 2",
+        "thoiky": "khangchien"
     },
     {
-        "year": "1919",
-        "title": "18 tháng 6 Nguyễn Ái Quốc gửi Yêu sách của nhân dân An Nam tới Hội nghị Hòa bình Versailles",
+        "year": "23/9/1945",
+        "title": "Trần Văn Giàu kêu gọi Nam Bộ kháng chiến",
         "content": "",
-        "thoiky": "phapthuoc"
+        "thoiky": "khangchien"
     },
     {
-        "year": "1919",
-        "title": "18 tháng 6 Nguyễn Ái Quốc gửi Yêu sách của nhân dân An Nam tới Hội nghị Hòa bình Versailles",
+        "year": "6/1/1946",
+        "title": "Tổng tuyển cử bầu Quốc hội đầu tiên",
         "content": "",
-        "thoiky": "phapthuoc"
+        "thoiky": "khangchien"
     },
     {
-        "year": "1919",
-        "title": "18 tháng 6 Nguyễn Ái Quốc gửi Yêu sách của nhân dân An Nam tới Hội nghị Hòa bình Versailles",
+        "year": "26/3/1946",
+        "title": "Pháp lập nên Cộng hòa Tự trị Nam Kỳ thuộc Liên hiệp Pháp, thủ đô Sài Gòn",
         "content": "",
-        "thoiky": "phapthuoc"
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "14/9/1946",
+        "title": "Tạm ước Việt - Pháp",
+        "content": "Tạm ước Việt – Pháp hay Thỏa hiệp án Việt – Pháp là một ký kết tạm thời (thuật ngữ ngoại giao viết theo tiếng Latinh: modus vivendi) được ký ngày 14 tháng 9 năm 1946 giữa đại diện Cộng hòa Pháp là Marius Moutet và đại diện Việt Nam Dân chủ Cộng hòa là Hồ Chí Minh. ",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "9/11/1946",
+        "title": "hiến pháp đầu tiên của nước Việt Nam độc lập",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "19/12/1946",
+        "title": "Hồ Chí Minh kêu gọi Toàn quốc kháng chiến",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "7/10/1947-22/12/1947",
+        "title": "Chiến dịch Việt Bắc Thu - Đông 1947",
+        "content": "Chiến dịch Việt Bắc Thu - Đông 1947 là chiến dịch phản công của lực lượng vũ trang nước Việt Nam Dân chủ Cộng hòa trước Cuộc hành quân Léa do quân đội Pháp thực hiện tại phía Bắc Việt Nam trong Chiến tranh Đông Dương.",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "14/6/1949",
+        "title": "Pháp lập nên Quốc gia Việt Nam",
+        "content": "14 tháng 6 Pháp lập nên Quốc gia Việt Nam, quốc trưởng Bảo Đại, thủ đô Sài Gòn",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "8/5/1950",
+        "title": "Mỹ bắt đầu can thiệp quân sự vào Việt Nam",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "16/9/1950-17/10/1950",
+        "title": "Chiến dịch Biên giới",
+        "content": "Chiến dịch Biên giới Thu đông 1950, còn gọi là Chiến dịch Lê Hồng Phong 2, là một chiến dịch trong Chiến tranh Đông Dương do Quân đội nhân dân Việt Nam (được phía Pháp gọi là Việt Minh) thực hiện từ ngày 16 tháng 9 đến 14 tháng 10 năm 1950 nhằm phá vòng vây mà quân viễn chinh của Đệ Tứ Cộng hòa Pháp bố trí nhằm cô lập các căn cứ địa Việt Bắc. ",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "13/3/1954-7/5/1954",
+        "title": "Chiến dịch Điện Biên Phủ",
+        "content": "Đây là chiến thắng quân sự lớn nhất trong cuộc Chiến tranh Đông Dương (1945 – 1954) của Việt Nam. Với thắng lợi quyết định này, lực lượng Quân đội Nhân dân Việt Nam do Đại tướng Võ Nguyên Giáp chỉ huy đã buộc quân đội Pháp và Quốc Gia Việt Nam tại Điện Biên Phủ phải đầu hàng vào ngày 7 tháng 5 năm 1954, sau 2 tháng cầm cự.",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "20/7/1954",
+        "title": "Hiệp định Genève",
+        "content": "Pháp rút quân khỏi Việt Nam và đất nước bị chia cắt",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "10/10/1954",
+        "title": "Giải phóng thủ đô",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "1955",
+        "title": "Ngô Đình Diệm phế truất Bảo Đại, lên làm Tổng thống, lập nên Việt Nam Cộng hòa",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "1959–1960",
+        "title": "Đồng Khởi là phong trào do những thành viên Việt Minh ở lại miền Nam Việt Nam kêu gọi nhân dân nổi dậy đồng loạt chống lại Hoa Kỳ và chính phủ Việt Nam Cộng hòa.",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "20/12/1960",
+        "title": "thành lập Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "15/12/1961",
+        "title": "thành lập Quân Giải phóng miền Nam Việt Nam",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "1961–1965",
+        "title": "chiến dịch Chiến tranh đặc biệt",
+        "content": "Staley-Taylor là tên một kế hoạch thực thi chiến lược 'Chiến tranh đặc biệt' của Hoa Kỳ trong Cuộc chiến xâm lược Việt Nam. Kế hoạch này được công bố tháng 5 năm 1961, mang tên hai người soạn thảo là nhà kinh tế học Eugene Staley của Viện nghiên cứu Standford - đại học Stanford và Đại tướng Maxwell D.",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "1963",
+        "title": "đảo chính lật đổ chính quyền Ngô Đình Diệm",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "8/3/1965",
+        "title": "Mỹ bắt đầu đưa quân vào tham chiến tại miền Nam Việt Nam",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "1965–1968",
+        "title": "chiến dịch Chiến tranh cục bộ",
+        "content": "Chiến tranh cục bộ là một chiến lược quân sự của Hoa Kỳ trong Chiến tranh Việt Nam (giai đoạn 1965-1967). ",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "1968–1973",
+        "title": "chiến dịch Việt Nam hóa chiến tranh",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "2/9/1969",
+        "title": "Chủ tịch Hồ Chí Minh từ trần",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "18/12/1972-30/12/1972",
+        "title": "Chiến dịch Điện Biên Phủ trên không",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "27/1/1973",
+        "title": "Hiệp định Paris, Mỹ rút quân khỏi Việt Nam",
+        "content": "",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "26/4/1975-2/5/1975",
+        "title": "Chiến dịch Hồ Chí Minh",
+        "content": "Chiến dịch Hồ Chí Minh, tên ban đầu là Chiến dịch Giải phóng Sài Gòn – Gia Định là chiến dịch cuối cùng của Quân Giải phóng miền Nam Việt Nam trong Cuộc Tổng tấn công và nổi dậy mùa Xuân năm 1975 và Chiến tranh Việt Nam.",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "30/4/1975",
+        "title": "kết thúc Chiến tranh Việt Nam",
+        "content": "chính phủ Việt Nam Cộng hòa đầu hàng vô điều kiện Cộng hòa Miền Nam Việt Nam, kết thúc Chiến tranh tại Việt Nam",
+        "thoiky": "khangchien"
+    },
+    {
+        "year": "2/7/1976",
+        "title": "đổi tên nước thành Cộng hòa xã hội chủ nghĩa Việt Nam",
+        "content": "",
+        "thoiky": "doimoi"
+    },
+    {
+        "year": "20/9/1977",
+        "title": "gia nhập Liên Hợp Quốc",
+        "content": "Liên Hợp Quốc được thành lập vào giai đoạn cuối Thế chiến II với mục đích ngăn chặn các cuộc xung đột quy mô toàn cầu trong tương lai và thay thế cho một tổ chức đã giải thể trong quá khứ là Hội Quốc Liên vốn hoạt động không mấy hiệu quả.",
+        "thoiky": "doimoi"
+    },
+    {
+        "year": "1975–1979",
+        "title": "chiến tranh biên giới Tây Nam",
+        "content": "Là cuộc xung đột quân sự giữa Cộng hòa Xã hội chủ nghĩa Việt Nam và Campuchia Dân chủ.",
+        "thoiky": "doimoi"
+    },
+    {
+        "year": "1979",
+        "title": "chiến tranh biên giới phía Bắc",
+        "content": "Chiến tranh biên giới 1979, hay thường được gọi là Chiến tranh biên giới Việt – Trung năm 1979, là một cuộc chiến ngắn nhưng khốc liệt giữa Trung Quốc và Việt Nam, diễn ra vào ngày 17 tháng 2 năm 1979 khi Trung Quốc đưa quân tấn công Việt Nam trên toàn tuyến biên giới giữa 2 nước.",
+        "thoiky": "doimoi"
+    },
+    {
+        "year": "18/12/1986",
+        "title": "bắt đầu Đổi Mới",
+        "content": "Đổi Mới là một chương trình cải cách toàn diện, đặc biệt là trong lĩnh vực kinh tế, chính trị và nhiều khía cạnh khác của đời sống xã hội được thực hiện tại Việt Nam từ cuối thập niên 1980. ",
+        "thoiky": "doimoi"
+    },
+    {
+        "year": "14/3/1988",
+        "title": "Xung đột Trường Sa",
+        "content": "Trung Quốc chiến được đá Gạc Ma, Việt Nam giữ được đá Cô Lin và đá Len Đao",
+        "thoiky": "doimoi"
+    },
+    {
+        "year": "7/11/1991",
+        "title": "bình thường hóa quan hệ với Trung Quốc",
+        "content": "",
+        "thoiky": "doimoi"
+    },
+    {
+        "year": "11/7/1995",
+        "title": "bình thường hóa quan hệ với Mỹ",
+        "content": "",
+        "thoiky": "doimoi"
+    },
+    {
+        "year": "28/7/1995",
+        "title": "gia nhập ASEAN",
+        "content": "",
+        "thoiky": "doimoi"
+    },
+    {
+        "year": "14/11/1998",
+        "title": "gia nhập APEC",
+        "content": "",
+        "thoiky": "doimoi"
+    },
+    {
+        "year": "11/1/2007",
+        "title": "gia nhập WTO",
+        "content": "",
+        "thoiky": "doimoi"
+    },
+    {
+        "year": "28/11/2013",
+        "title": "gthông qua Hiến pháp 2013",
+        "content": "",
+        "thoiky": "doimoi"
+    },
+    {
+        "year": "2020–2023",
+        "title": "Đại dịch COVID-19",
+        "content": "Vào ngày 23 tháng 1 năm 2020, trường hợp đầu tiên mắc COVID-19 do virus SARS-CoV-2 gây ra được xác nhận tại Thành phố Hồ Chí Minh, Việt Nam. Xã hội, kinh tế bị tác động bởi đại dịch. Các hoạt động kiểm soát đã diễn ra trong đó có hạn chế tự do di chuyển. Tính đến ngày 15 tháng 1 năm 2024, Việt Nam ghi nhận 11.625.195 trường hợp nhiễm COVID-19 và 43.206 trường hợp tử vong. Tuy nhiên số ca nhiễm thực tế của một số tỉnh có thể cao gấp 4-5 lần số liệu Bộ Y tế công bố.",
+        "thoiky": "doimoi"
     }
 ]

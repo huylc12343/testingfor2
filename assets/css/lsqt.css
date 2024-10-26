@@ -101,3 +101,33 @@ body {
     cursor: pointer;
     z-index: 1000; /* Đảm bảo nó nổi trên các nội dung khác */
 }
+
+/* Định dạng cho các thẻ p trong phần hiển thị hình ảnh */
+.image-display p {
+    font-size: 16px; /* Kích thước chữ */
+    color: #333; /* Màu chữ */
+    line-height: 1.5; /* Khoảng cách giữa các dòng */
+    margin-top: 0px; /* Khoảng cách phía trên */
+    margin-bottom: 20px; /* Khoảng cách phía dưới */
+    padding: 10px; /* Đệm bên trong */
+    background-color: rgba(255, 255, 255, 0.8); /* Màu nền sáng nhẹ */
+    border-radius: 5px; /* Bo tròn góc */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Đổ bóng nhẹ */
+    box-sizing: border-box; /* Bao gồm cả padding và border trong kích thước */
+    width: 100%;
+    overflow-wrap: break-word; /* Đảm bảo từ dài cũng sẽ xuống dòng */
+    word-wrap: break-word; /* Kết hợp với overflow-wrap để đảm bảo tính tương thích */
+}
+
+/* Định dạng cho các container hình ảnh */
+.image-container {
+    margin-bottom: 20px; /* Khoảng cách giữa các container hình ảnh */
+    text-align: center; /* Canh giữa nội dung */
+    width: auto;
+}
+/* Thay đổi chiều rộng của hình ảnh để phù hợp */
+.image-container img {
+    width: 100%; /* Chiều rộng của hình ảnh bằng 100% */
+    height: auto; /* Chiều cao tự động theo tỷ lệ */
+    border-radius: 5px; /* Bo tròn góc cho hình ảnh */
+}
