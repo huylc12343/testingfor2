@@ -2,6 +2,8 @@
 let userData = [
     { username: "", password: "" }
 ];
+let isLoggedIn = false;
+localStorage.setItem('isLoggedIn', 'false');
 
 // Hàm lấy dữ liệu từ file TXT
 function getData() {
@@ -49,8 +51,12 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         if (isValidLogin) {
             errorMessage.style.color = "green";
             errorMessage.textContent = "Đăng nhập thành công!";
+            isLoggedIn = true;
+            localStorage.setItem('isLoggedIn', 'true');
             window.location.href = "../../index.html"; // Chuyển trang sau khi đăng nhập thành công
         } else {
+            isLoggedIn = false;
+            localStorage.setItem('isLoggedIn', 'false');
             errorMessage.style.color = "red";
             errorMessage.textContent = "Tên đăng nhập hoặc mật khẩu không đúng!";
         }
@@ -59,5 +65,6 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         const errorMessage = document.getElementById("error-message");
         errorMessage.style.color = "red";
         errorMessage.textContent = "Có lỗi xảy ra khi tải dữ liệu người dùng!";
+        isLoggedIn = false;
     });
 });

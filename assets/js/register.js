@@ -1,36 +1,24 @@
-const fs = require('fs');
-const path = require('path');
+document.getElementById("registerForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Ngăn chặn form reload lại trang
 
-// Đường dẫn đến file users.txt
-const filePath = path.join(__dirname, '../data/users.txt'); 
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
 
-// Hàm để ghi dữ liệu vào file users.txt
-function registerUser(username, password) {
-    // Kiểm tra xem file đã tồn tại hay chưa
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err && err.code !== 'ENOENT') {
-            console.error('Lỗi khi đọc file:', err);
-            return;
-        }
-
-        // Kiểm tra xem người dùng đã tồn tại chưa
-        const users = data ? data.split('\n').map(line => line.split(',')[0]) : [];
-        if (users.includes(username)) {
-            console.log('Tên người dùng đã tồn tại.');
-            return;
-        }
-
-        // Ghi người dùng vào file
-        fs.appendFile(filePath, `${username},${password}\n`, (err) => {
-            if (err) {
-                console.error('Lỗi khi lưu dữ liệu:', err);
-                return;
-            }
-            console.log('Đăng ký thành công!');
+    // Gửi yêu cầu đăng ký tới server Flask
+    $.post("http://127.0.0.1:5000/register", { username: username, password: password })
+        .done(function(response) {
+            window.location.href = "../pages/login.html"; // Chuyển tới trang đăng nhập
+            alert(response.message); // Hiển thị thông báo thành công
+        })
+        .fail(function(xhr) {
+            const response = JSON.parse(xhr.responseText);
+            alert(response.message); // Hiển thị thông báo lỗi
         });
-    });
-}
+});
 
-// Ví dụ về việc gọi hàm để đăng ký
-// Bạn có thể thay thế giá trị này bằng dữ liệu từ form hoặc đầu vào khác
-registerUser('user1', 'password1');
+// Giả sử có một hàm kiểm tra tên đăng nhập đã tồn tại
+function isUsernameTaken(username) {
+    // Đây là nơi để kiểm tra tên đăng nhập
+    // Có thể gọi AJAX để kiểm tra từ server hoặc dùng một mảng mẫu trong ứng dụng của bạn
+    return false; // Chưa có kiểm tra thực tế
+}

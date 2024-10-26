@@ -138,3 +138,20 @@ body {
     font-size: 2em;
     color: #000;
 }
+#logoutButton {
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    top: 20px; /* Cách từ trên xuống 20px */
+    right: 20px; /* Cách từ bên phải vào 20px */
+    background-color: #ff4d4d; /* Màu nền cho nút */
+    color: white; /* Màu chữ */
+    border: none; /* Không có viền */
+    padding: 10px 15px; /* Khoảng cách bên trong */
+    border-radius: 5px; /* Bo góc */
+    cursor: pointer; /* Hiển thị con trỏ khi di chuột */
+    font-size: 16px; /* Kích thước chữ */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền */
+}
+
+#logoutButton:hover {
+    background-color: #ff1a1a; /* Màu nền khi di chuột lên nút */
+}
