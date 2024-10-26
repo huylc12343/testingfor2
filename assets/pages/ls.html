@@ -9,7 +9,12 @@
 </head>
 <body>
 
-    <div id="headerline"></div>
+    <div id="headerline">
+        <button onclick="goBack()" class="back-button">
+            <img src="../svg/return-svgrepo-com.svg" alt="" style="height: 20px;">
+        </button>
+    </div>
+    
 
     <div class="timeline" id="timeline">
         <!-- Nội dung sự kiện sẽ được tạo bởi JavaScript -->
@@ -131,6 +136,9 @@
             document.getElementById('overlay').style.display = 'none';
         }
 
+        
     </script>
+    <script src="../js/main.js"></script>
+
 </body>
 </html>

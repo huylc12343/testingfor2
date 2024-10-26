@@ -86,3 +86,11 @@ body {
     font-size: 24px;
     cursor: pointer;
 }
+.headliner {
+    position: fixed; /* Đảm bảo phần tử cố định ở góc màn hình */
+    top: 10px;
+    left: 10px; /* Căn chỉnh sát góc trái */
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000; /* Đảm bảo nó nổi trên các nội dung khác */
+}
