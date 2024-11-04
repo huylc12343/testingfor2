@@ -84,6 +84,13 @@
             var iframe = document.getElementById('popupIframe');
             iframe.src = ""; // Reset iframe src to stop the content
         }
+        document.addEventListener('keydown', function(event) {
+            // Kiểm tra xem phím có phải là mũi tên lên, xuống, trái, phải không
+            if (event.key === "ArrowUp" || event.key === "ArrowDown" || event.key === "ArrowLeft" || event.key === "ArrowRight") {
+                event.preventDefault(); // Chặn sự kiện mặc định của phím
+            }
+        });
+        
     </script>
     <script src="../js/main.js"></script>
 

@@ -6,34 +6,71 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     background-image: url("historicalbackground.jpg");
     background-size: cover;
-    min-height: 100vh; /* Đảm bảo chiều cao tối thiểu */
-
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 h1 {
+    margin: 20px 0;
+    font-size: 2em;
+    color: #333;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+h1 {
+    margin: 20px 0;
+    font-size: 2em;
+    color: #333;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     text-align: center;
-    margin-top: 20px;
+    width: 100%;
 }
 
+#headerline {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.back-button {
+    padding: 10px; 
+    width: 50px;
+    height: 50px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}
+
+/* Timeline Styles */
 .timeline {
     position: relative;
-    width: 50%;
-    margin: 0 auto;
+    width: 70%;
+    max-width: 800px;
+    margin-top: 40px;
     padding: 40px 0;
 }
 
 .timeline::after {
     content: '';
     position: absolute;
-    width: 6px;
+    width: 4px;
     background-color: #333;
     top: 0;
     bottom: 0;
     left: 50%;
-    margin-left: -3px;
+    transform: translateX(-50%);
 }
 
 .event {
@@ -46,60 +83,67 @@ h1 {
 
 .event.left {
     left: 0;
+    text-align: right;
 }
 
 .event.right {
     left: 55%;
+    text-align: left;
 }
 
 .event::before {
     content: '';
     position: absolute;
     top: 30px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background-color: #333;
     border: 3px solid #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
 .event.left::before {
-    right: -17px;
+    right: -12px;
 }
 
 .event.right::before {
-    left: -17px;
+    left: -12px;
 }
 
+/* Event Content Styling */
 .event-content {
     background-color: #fff;
-    padding: 15px;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .event-content:hover {
-    background-color: #e3f2fd; /* Màu nền thay đổi khi hover */
-    transform: scale(1.05); /* Phóng to nhẹ khi hover */
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Thêm đổ bóng sâu hơn */
+    background-color: #e3f2fd;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .event-content h2 {
     margin-bottom: 10px;
-    font-size: 18px;
-    transition: color 0.3s ease;
+    font-size: 1.2em;
+    color: #333;
 }
 
-.event-content:hover h2 {
-    color: #007bff; /* Đổi màu tiêu đề khi hover */
+.event-content h3 {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #007bff;
 }
 
 .event p {
-    font-size: 16px;
+    font-size: 0.9em;
+    color: #555;
 }
 
-/* Popup Styles */
+/* Popup Modal Styles */
 .popup {
     display: none;
     position: fixed;
@@ -110,30 +154,42 @@ h1 {
     max-width: 600px;
     background-color: #fff;
     padding: 20px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     z-index: 1000;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 .popup h2 {
+    font-size: 1.5em;
+    color: #333;
     margin-bottom: 10px;
 }
 
 .popup p {
-    font-size: 16px;
+    font-size: 1em;
+    color: #555;
 }
 
-.close-popup {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.2em;
     cursor: pointer;
+    color: #333;
 }
 
+.close-btn:hover {
+    color: #ff0000;
+}
+
+/* Overlay */
 .overlay {
     display: none;
     position: fixed;
@@ -143,18 +199,5 @@ h1 {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: 999;
-}
-.back-button {
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.back-button:hover {
-    background-color: #45a049;
+    animation: fadeIn 0.3s ease-in-out;
 }

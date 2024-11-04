@@ -1,133 +1,153 @@
+/* Body styling */
 body {
     font-family: Arial, sans-serif;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #e9ecef; /* Màu nền sáng nhẹ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+/* Container styling */
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto; /* Đặt container ở giữa màn hình */
     text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Màu nền trắng cho container */
+    border-radius: 12px; /* Bo góc mềm mại */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    max-width: 800px; /* Giới hạn chiều rộng container */
+    width: 90%; /* Đáp ứng trên các màn hình nhỏ */
 }
 
+/* Button styling */
 .buttons button {
-    padding: 10px 20px;
+    padding: 12px 24px;
     margin: 10px;
     font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 3px 8px rgba(0, 123, 255, 0.3); /* Đổ bóng nhẹ */
 }
 
+.buttons button:hover {
+    background-color: #0056b3; /* Màu khi hover */
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+}
+
+/* Image display styling */
 .image-display {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Hiển thị 3 cột */
-    gap: 20px; /* Khoảng cách giữa các ảnh */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Đáp ứng số cột linh hoạt */
+    gap: 20px;
     margin-top: 20px;
-    justify-items: center; /* Căn giữa các ảnh trong mỗi cột */
+    width: 100%;
 }
 
 .image-container {
+    position: relative;
     text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+    transform: translateY(-5px); /* Hiệu ứng nổi khi hover */
 }
 
 .image-container img {
-    width: 100%; /* Ảnh sẽ chiếm toàn bộ chiều rộng của container */
-    max-width: 300px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng cho ảnh */
 }
 
 .image-container p {
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 14px;
     color: #555;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.9); /* Nền trắng mờ */
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
-/* Popup Video Styles */
+/* Popup video styling */
 .popup {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .popup-content {
     position: relative;
-    width: 80%;
-    max-width: 600px;
-    background-color: #fff;
+    width: 90%;
+    max-width: 700px;
+    background-color: #ffffff;
     padding: 20px;
-    text-align: center;
     border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    text-align: center;
 }
 
-.popup-content video {
+.popup-content iframe {
     width: 100%;
-    height: auto;
+    border-radius: 6px;
 }
 
+/* Close button styling */
 .close {
     position: absolute;
-    bottom: -25px; /* Cách dưới video */
-    left: 50%; /* Giữa chiều ngang */
-    transform: translateX(-50%); /* Đưa về chính giữa */
-    width: 40px; /* Chiều rộng của nút */
-    height: 40px; /* Chiều cao của nút */
-    border-radius: 50%; /* Hình tròn */
-    background-color: #f44336; /* Màu nền */
-    color: white; /* Màu chữ */
-    border: none; /* Không có viền */
-    font-size: 24px; /* Kích thước chữ */
-    cursor: pointer; /* Con trỏ chuột */
-    outline: none; /* Bỏ viền khi được chọn */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Đổ bóng cho nút */
+    top: -20px;
+    right: -20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ff4d4d;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
 }
 
 .close:hover {
-    background-color: #d32f2f; /* Màu nền khi hover */
+    background-color: #c0392b; /* Đậm hơn khi hover */
 }
 
-.headliner {
-    position: fixed; /* Đảm bảo phần tử cố định ở góc màn hình */
-    top: 10px;
-    left: 10px; /* Căn chỉnh sát góc trái */
-    font-size: 24px;
+/* Header line styling */
+#headerline {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1000;
+}
+
+.back-button img {
+    height: 24px;
     cursor: pointer;
-    z-index: 1000; /* Đảm bảo nó nổi trên các nội dung khác */
+    transition: transform 0.2s;
 }
 
-/* Định dạng cho các thẻ p trong phần hiển thị hình ảnh */
-.image-display p {
-    font-size: 16px; /* Kích thước chữ */
-    color: #333; /* Màu chữ */
-    line-height: 1.5; /* Khoảng cách giữa các dòng */
-    margin-top: 0px; /* Khoảng cách phía trên */
-    margin-bottom: 20px; /* Khoảng cách phía dưới */
-    padding: 10px; /* Đệm bên trong */
-    background-color: rgba(255, 255, 255, 0.8); /* Màu nền sáng nhẹ */
-    border-radius: 5px; /* Bo tròn góc */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Đổ bóng nhẹ */
-    box-sizing: border-box; /* Bao gồm cả padding và border trong kích thước */
-    width: 100%;
-    overflow-wrap: break-word; /* Đảm bảo từ dài cũng sẽ xuống dòng */
-    word-wrap: break-word; /* Kết hợp với overflow-wrap để đảm bảo tính tương thích */
-}
-
-/* Định dạng cho các container hình ảnh */
-.image-container {
-    margin-bottom: 20px; /* Khoảng cách giữa các container hình ảnh */
-    text-align: center; /* Canh giữa nội dung */
-    width: auto;
-}
-/* Thay đổi chiều rộng của hình ảnh để phù hợp */
-.image-container img {
-    width: 100%; /* Chiều rộng của hình ảnh bằng 100% */
-    height: auto; /* Chiều cao tự động theo tỷ lệ */
-    border-radius: 5px; /* Bo tròn góc cho hình ảnh */
+.back-button img:hover {
+    transform: scale(1.1);
 }

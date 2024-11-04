@@ -1,0 +1,240 @@
+/* Reset body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+/* Header line styling */
+#headerline {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.back-button img {
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.back-button img:hover {
+    transform: scale(1.1);
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin: 20px 0 30px 0;
+    font-weight: 700;
+}
+
+/* Product container styling */
+#products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Đảm bảo cấu trúc grid linh hoạt */
+    gap: 20px; /* Khoảng cách giữa các sản phẩm */
+    justify-items: center;
+    margin: 20px 0;
+}
+
+/* Product styling */
+.product {
+    width: 250px;
+    height: 280px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.product img {
+    width: 100%;
+    height: 120px; /* Điều chỉnh chiều cao cho phù hợp với khung */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    color: #333;
+    font-size: 1.1em;
+    margin: 8px 0 4px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; /* Ẩn phần văn bản dư */
+}
+
+.product p {
+    color: #777;
+    font-size: 0.95em;
+    margin: 0;
+    font-weight: 500;
+}
+
+.product button {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+/* Cart icon styling */
+.cart-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.cart-container:hover {
+    transform: scale(1.05);
+}
+
+.cart-text {
+    text-align: left;
+    margin-right: 10px;
+    color: #333;
+    font-weight: 500;
+}
+
+.cart-icon {
+    width: 40px;
+    height: auto;
+}
+
+/* Popup styling */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.popup-content h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.popup-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.popup-content .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #555;
+}
+
+.popup-content button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+.popup-content button:hover {
+    background-color: #0056b3;
+}
+
+/* Search and filter styling */
+.search, .filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    width: 50%;
+    max-width: 300px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+.filter button:hover {
+    background-color: #0056b3;
+}
