@@ -209,7 +209,7 @@ body {
   --lerp: var(--lerp-4);
   z-index: 1;
 }
-/* giao diện khác
+/* giao diện khác */
 @import "https://unpkg.com/open-props/normalize.min.css";
 @import "https://unpkg.com/open-props/open-props.min.css";
 
@@ -328,9 +328,8 @@ h1 {
 .block:hover .title {
   color: hsl(var(--hue, 10) 70% 90%);
 }
-giao diện khác
+/* giao diện khác */
 
-*/
 /* Media query for mobile screens */
 @media screen and (max-width: 700px) {
   .blocks {
@@ -355,7 +354,7 @@ giao diện khác
 
   .block__item {
     flex-shrink: 0; /* Đảm bảo kích thước không bị co */
-    width: 48px; /* Kích thước cố định cho biểu tượng */
+    width: 300px; /* Kích thước cố định cho biểu tượng */
     height: 48px;
     display: flex;
     align-items: center;
@@ -367,7 +366,7 @@ giao diện khác
 
   .block__item svg {
     width: 24px; /* Kích thước SVG phù hợp */
-    height: 24px;
+    height: 20px;
     stroke: var(--gray-0); /* Màu biểu tượng */
   }
 
@@ -379,3 +378,4 @@ giao diện khác
     line-height: 1.2; /* Căn chỉnh dòng chữ */
   }
 }
+/*  */
