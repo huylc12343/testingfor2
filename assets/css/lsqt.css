@@ -151,3 +151,93 @@ body {
 .back-button img:hover {
     transform: scale(1.1);
 }
+/* Responsive adjustments for mobile screens */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 15px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Giảm đổ bóng cho nhẹ hơn */
+    }
+
+    h1 {
+        font-size: 1.8em; /* Giảm kích thước tiêu đề */
+    }
+
+    .buttons button {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+        margin: 8px 0; /* Giảm khoảng cách giữa các nút */
+    }
+
+    .image-display {
+        grid-template-columns: 1fr; /* Đặt một cột cho hình ảnh trên màn hình nhỏ */
+    }
+
+    .image-container {
+        margin: 0 auto;
+        width: 100%; /* Hình ảnh chiếm toàn bộ chiều rộng của cột */
+    }
+
+    .popup-content {
+        width: 95%; /* Giảm kích thước của popup trên màn hình nhỏ */
+        max-width: 90%; /* Tối ưu hóa chiều rộng */
+        padding: 15px;
+    }
+
+    #headerline {
+        top: 10px;
+        left: 10px;
+    }
+
+    .back-button img {
+        height: 20px;
+    }
+
+    .popup-content iframe {
+        height: 200px; /* Chiều cao video cố định cho màn hình nhỏ */
+    }
+
+    .close {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        top: -15px;
+        right: -15px;
+    }
+}
+
+/* Extra small screens (for very narrow devices) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .buttons button {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .image-display {
+        grid-template-columns: 1fr; /* Giữ một cột cho hình ảnh */
+        gap: 15px; /* Giảm khoảng cách giữa các hình ảnh */
+    }
+
+    .popup-content {
+        padding: 10px;
+    }
+
+    .popup-content iframe {
+        height: 180px; /* Chiều cao video nhỏ hơn nữa */
+    }
+
+    .close {
+        width: 28px;
+        height: 28px;
+        font-size: 14px;
+    }
+}
