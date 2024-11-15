@@ -211,33 +211,102 @@ body {
     }
 }
 
-/* Extra small screens (for very narrow devices) */
-@media screen and (max-width: 480px) {
+/* Cơ bản: Đảm bảo container hiển thị tốt trên màn hình nhỏ */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 15px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Giảm đổ bóng */
+    }
+
     h1 {
-        font-size: 1.5em;
+        font-size: 1.6em; /* Giảm kích thước tiêu đề */
     }
 
+    /* Điều chỉnh nút */
     .buttons button {
-        font-size: 13px;
-        padding: 8px;
+        width: 100%; /* Nút chiếm toàn bộ chiều ngang */
+        font-size: 14px; /* Kích thước nhỏ hơn */
+        padding: 10px;
+        margin: 8px 0; /* Giảm khoảng cách giữa các nút */
     }
 
+    /* Bố cục ảnh: 2 cột */
     .image-display {
-        grid-template-columns: 1fr; /* Giữ một cột cho hình ảnh */
-        gap: 15px; /* Giảm khoảng cách giữa các hình ảnh */
+        grid-template-columns: repeat(2, 1fr); /* Đặt 2 cột khi màn hình nhỏ */
+        gap: 15px; /* Giảm khoảng cách giữa các ảnh */
     }
 
+    .image-container {
+        width: 100%; /* Chiều rộng đầy đủ */
+    }
+
+    .image-container img {
+        width: 100%; /* Ảnh chiếm toàn bộ container */
+        height: auto; /* Giữ tỷ lệ ảnh */
+        border-radius: 6px; /* Bo góc nhẹ */
+    }
+
+    .image-container p {
+        font-size: 12px; /* Giảm kích thước mô tả */
+        padding: 6px;
+    }
+
+    /* Popup video */
     .popup-content {
+        width: 95%; /* Giảm kích thước popup */
+        max-width: 400px;
         padding: 10px;
     }
 
     .popup-content iframe {
-        height: 180px; /* Chiều cao video nhỏ hơn nữa */
+        height: 200px; /* Đặt chiều cao cố định cho video */
     }
 
+    /* Nút đóng popup */
     .close {
         width: 28px;
         height: 28px;
         font-size: 14px;
+    }
+
+    /* Header */
+    #headerline {
+        top: 10px;
+        left: 10px;
+    }
+
+    .back-button img {
+        height: 20px; /* Kích thước biểu tượng nhỏ hơn */
+    }
+}
+
+/* Giao diện nhỏ hơn (màn hình <480px) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.4em; /* Giảm kích thước tiêu đề hơn nữa */
+    }
+
+    .buttons button {
+        font-size: 12px; /* Nút nhỏ hơn */
+        padding: 8px;
+    }
+
+    .image-container p {
+        font-size: 10px; /* Mô tả nhỏ hơn */
+    }
+
+    .popup-content {
+        padding: 8px; /* Giảm padding trong popup */
+    }
+
+    .close {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
     }
 }
