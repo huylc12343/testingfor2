@@ -36,8 +36,10 @@ h1 {
 /* Product container styling */
 #products {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Đảm bảo cấu trúc grid linh hoạt */
-    gap: 20px; /* Khoảng cách giữa các sản phẩm */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* Đảm bảo cấu trúc grid linh hoạt */
+    gap: 20px;
+    /* Khoảng cách giữa các sản phẩm */
     justify-items: center;
     margin: 20px 0;
 }
@@ -67,7 +69,8 @@ h1 {
 
 .product img {
     width: 100%;
-    height: 120px; /* Điều chỉnh chiều cao cho phù hợp với khung */
+    height: 120px;
+    /* Điều chỉnh chiều cao cho phù hợp với khung */
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -81,7 +84,8 @@ h1 {
     line-height: 1.2;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden; /* Ẩn phần văn bản dư */
+    overflow: hidden;
+    /* Ẩn phần văn bản dư */
 }
 
 .product p {
@@ -205,7 +209,8 @@ h1 {
 }
 
 /* Search and filter styling */
-.search, .filter {
+.search,
+.filter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,4 +242,208 @@ h1 {
 
 .filter button:hover {
     background-color: #0056b3;
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        /* Giảm kích thước tiêu đề */
+    }
+
+    .search input[type="text"] {
+        width: 100%;
+        /* Input chiếm toàn bộ chiều rộng */
+        font-size: 1em;
+        /* Kích thước font dễ đọc hơn */
+    }
+
+    .filter button {
+        padding: 8px 10px;
+        font-size: 0.9em;
+        /* Giảm kích thước nút */
+        margin: 5px 0;
+        /* Tăng khoảng cách giữa các nút */
+        width: 100%;
+        /* Nút trải dài theo chiều ngang */
+    }
+
+    #products {
+        grid-template-columns: 1fr;
+        /* Hiển thị sản phẩm thành một cột */
+        gap: 15px;
+        /* Giảm khoảng cách giữa các sản phẩm */
+    }
+
+    .product {
+        width: 200px;
+        /* Đặt chiều rộng cố định */
+        height: 200px;
+        /* Chiều cao bằng chiều rộng */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        /* Bo góc mềm mại */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+    }
+
+    .product img {
+        width: 80%;
+        /* Đảm bảo hình ảnh chiếm 80% không gian chiều rộng */
+        height: 80%;
+        /* Chiều cao tương ứng để vừa khung */
+        object-fit: cover;
+        /* Đảm bảo ảnh không bị méo */
+        border-radius: 4px;
+    }
+
+    /* Tên sản phẩm */
+    .product h2 {
+        color: #333;
+        font-size: 0.9em;
+        /* Giảm kích thước font chữ */
+        margin: 5px 0;
+        /* Khoảng cách giữa tên và phần khác */
+        font-weight: 600;
+        line-height: 1.2;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        /* Cắt bớt văn bản dài */
+    }
+
+    /* Giá sản phẩm */
+    .product p {
+        color: #777;
+        font-size: 0.85em;
+        /* Kích thước văn bản nhỏ hơn */
+        margin: 0;
+    }
+
+    /* Nút sản phẩm */
+    .product button {
+        padding: 8px;
+        font-size: 0.8em;
+        /* Giảm kích thước font của nút */
+        background-color: #007bff;
+        color: #ffffff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 100%;
+        /* Nút trải dài khung sản phẩm */
+    }
+
+    .product button:hover {
+        background-color: #0056b3;
+    }
+
+    /* Responsive adjustments */
+    @media screen and (max-width: 768px) {
+        .product {
+            width: 150px;
+            /* Chiều rộng nhỏ hơn trên màn hình nhỏ */
+            height: 150px;
+            /* Chiều cao tương ứng */
+        }
+
+        .product img {
+            width: 70%;
+            /* Giảm kích thước hình ảnh trên màn hình nhỏ */
+            height: 70%;
+        }
+
+        .product h2 {
+            font-size: 0.3em;
+            /* Giảm thêm kích thước font chữ */
+        }
+
+        .product p {
+            font-size: 0.75em;
+            /* Văn bản giá nhỏ hơn */
+        }
+
+        .product button {
+            font-size: 0.75em;
+            /* Font chữ nút nhỏ hơn */
+        }
+    }
+
+    .cart-container {
+        width: auto;
+        /* Điều chỉnh kích thước giỏ hàng */
+        padding: 10px;
+    }
+
+    .cart-icon {
+        width: 30px;
+        /* Giảm kích thước biểu tượng giỏ hàng */
+    }
+
+    .cart-text {
+        font-size: 0.9em;
+        /* Giảm kích thước chữ */
+    }
+
+    .popup-content {
+        width: 90%;
+        /* Giảm kích thước popup */
+        padding: 15px;
+    }
+
+    .popup-content ul {
+        max-height: 300px;
+        /* Đặt chiều cao tối đa cho danh sách giỏ hàng */
+        overflow-y: auto;
+        /* Thêm thanh cuộn nếu danh sách dài */
+    }
+
+    .popup-content button {
+        font-size: 0.9em;
+        /* Giảm kích thước nút */
+        padding: 10px;
+    }
+
+    .close {
+        font-size: 20px;
+        /* Giảm kích thước nút đóng */
+    }
+}
+
+/* Responsive for extra small devices */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+        /* Giảm kích thước tiêu đề hơn nữa */
+    }
+
+    .product {
+        padding: 10px;
+    }
+
+    .filter button {
+        font-size: 0.8em;
+        /* Giảm kích thước nút */
+    }
+
+    .popup-content {
+        padding: 10px;
+    }
+
+    .popup-content ul {
+        max-height: 250px;
+        /* Chiều cao nhỏ hơn cho danh sách sản phẩm */
+    }
 }
