@@ -209,7 +209,7 @@ body {
   --lerp: var(--lerp-4);
   z-index: 1;
 }
-/* 
+/* giao diện khác
 @import "https://unpkg.com/open-props/normalize.min.css";
 @import "https://unpkg.com/open-props/open-props.min.css";
 
@@ -328,5 +328,54 @@ h1 {
 .block:hover .title {
   color: hsl(var(--hue, 10) 70% 90%);
 }
+giao diện khác
 
 */
+/* Media query for mobile screens */
+@media screen and (max-width: 700px) {
+  .blocks {
+    display: block; /* Hiển thị dạng danh sách dọc */
+    padding: 0;
+    gap: 0;
+  }
+
+  .block {
+    width: 90%; /* Block chiếm 90% màn hình */
+    max-width: 300px; /* Giới hạn chiều rộng */
+    margin: 0 auto var(--size-4); /* Căn giữa và thêm khoảng cách dưới */
+    text-align: left; /* Căn trái cho nội dung */
+    display: flex;
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+    gap: var(--size-3); /* Khoảng cách giữa biểu tượng và tên */
+    padding: var(--size-3);
+    border-radius: var(--radius-2); /* Bo góc mềm mại */
+    background: rgba(255, 255, 255, 0.1); /* Nền mờ */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Đổ bóng nhẹ */
+  }
+
+  .block__item {
+    flex-shrink: 0; /* Đảm bảo kích thước không bị co */
+    width: 48px; /* Kích thước cố định cho biểu tượng */
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-2); /* Bo góc cho biểu tượng */
+    background: hsl(var(--hue, 10) 70% 60%); /* Màu nền biểu tượng */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Đổ bóng cho biểu tượng */
+  }
+
+  .block__item svg {
+    width: 24px; /* Kích thước SVG phù hợp */
+    height: 24px;
+    stroke: var(--gray-0); /* Màu biểu tượng */
+  }
+
+  .title {
+    flex: 1; /* Tên sẽ chiếm toàn bộ không gian còn lại */
+    font-size: 16px; /* Font chữ lớn hơn để dễ đọc */
+    color: var(--gray-0); /* Màu chữ */
+    margin: 0; /* Xóa khoảng cách thừa */
+    line-height: 1.2; /* Căn chỉnh dòng chữ */
+  }
+}
