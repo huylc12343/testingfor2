@@ -142,3 +142,23 @@ body {
     font-size: 1.5em;
     color: #333333;
 }
+/* Media query for mobile screens */
+@media screen and (max-width: 700px) {
+    .timeline {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Tạo lưới 2 cột */
+        gap: 20px; /* Khoảng cách giữa các ô */
+        justify-items: center;
+    }
+
+    .section {
+        font-size: 1.4em;
+        flex: 1 1 auto; /* Điều chỉnh lại kích thước ô */
+        width: 100%;
+    }
+
+    #logoutButton {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
