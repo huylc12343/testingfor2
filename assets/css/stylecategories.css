@@ -353,29 +353,31 @@ h1 {
   }
 
   .block__item {
+    padding-left: 10px;
     flex-shrink: 0; /* Đảm bảo kích thước không bị co */
     width: 300px; /* Kích thước cố định cho biểu tượng */
-    height: 48px;
+    height: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
     border-radius: var(--radius-2); /* Bo góc cho biểu tượng */
     background: hsl(var(--hue, 10) 70% 60%); /* Màu nền biểu tượng */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Đổ bóng cho biểu tượng */
   }
 
   .block__item svg {
-    width: 24px; /* Kích thước SVG phù hợp */
-    height: 20px;
+    width: 150px; /* Kích thước SVG phù hợp */
+    height: 150px;
     stroke: var(--gray-0); /* Màu biểu tượng */
   }
 
   .title {
+    display: block;
     flex: 1; /* Tên sẽ chiếm toàn bộ không gian còn lại */
     font-size: 16px; /* Font chữ lớn hơn để dễ đọc */
     color: var(--gray-0); /* Màu chữ */
     margin: 0; /* Xóa khoảng cách thừa */
     line-height: 1.2; /* Căn chỉnh dòng chữ */
   }
+  
 }
 /*  */
