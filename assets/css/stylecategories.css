@@ -378,6 +378,10 @@ h1 {
     margin: 0; /* Xóa khoảng cách thừa */
     line-height: 1.2; /* Căn chỉnh dòng chữ */
   }
-  
+  *,
+  *:after,
+  *:before {
+    box-sizing: content-box;
+  }
 }
 /*  */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Thêm jQuery nếu chưa có -->
     <script>
         // Kiểm tra trạng thái đăng nhập
-        window.onload = function() {
+        window.onload = function () {
             const isLoggedIn = localStorage.getItem('isLoggedIn');
             if (!isLoggedIn || isLoggedIn !== 'true') {
                 // Nếu chưa đăng nhập, chuyển hướng về trang đăng nhập
@@ -26,46 +27,73 @@
         }
     </script>
 </head>
+
 <body>
 
     <div class="timeline">
         <button id="logoutButton" onclick="handleLogout()">Đăng xuất</button>
-        
-        <div class="section lsvn" style="background-image: url(assets/image/1.jpg); background-size: contain; background-position: center; background-repeat: no-repeat;">
+
+        <div class="section lsvn"
+        style="background-image: url(assets/image/1.jpg); width:100%;height:auto; background-position: center; background-repeat: no-repeat;">
             <a href="assets/pages/categories.html?data=lsvn" class="dir">
-                <!-- <div class="image-holder">
-                    <img src="assets/image/anhcovn.jpg" alt="Lịch sử Việt Nam">
+                <div class="video-cover">
+                    <video src="assets/video/lsvn.mp4" class="appear" muted loop playsinline preload="metadata">
+                    </video>
                 </div>
-                <div class="content">Lịch sử Việt Nam</div> -->
             </a>
         </div>
 
-        <div class="section lsqt" style="background-image: url(assets/image/2.jpg); background-size: contain; background-position: center; background-repeat: no-repeat;">
+
+        <div class="section lsqt"
+            style="background-image: url(assets/image/2.jpg); width:100%;height:auto; background-position: center; background-repeat: no-repeat;">
             <a class="dir" href="assets/pages/lsqt.html">
-                <!-- <div class="image-holder">
-                    <img src="assets/image/clqd.jpg" alt="Lịch sử Quảng Trị">
+                <div class="video-cover">
+                    <video src="assets/video/lsqt.mp4" class="appear" muted loop playsinline preload="metadata">
+                    </video>
                 </div>
-                <div class="content">Lịch sử Quảng Trị</div> -->
             </a>
         </div>
 
-        <div class="section tlls" style="background-image: url(assets/image/3.jpg); background-size: contain; background-position: center; background-repeat: no-repeat;">
+        <div class="section tlls"
+            style="background-image: url(assets/image/3.jpg); width:100%;height:auto; background-position: center; background-repeat: no-repeat;">
             <a class="dir" href="assets/pages/museum.html">
-                <!-- <div class="image-holder">
-                    <img src="assets/image/clqd2.jpg" alt="Triển Lãm Lịch Sử">
+                <div class="video-cover">
+                    <video src="assets/video/tlls.mp4" class="appear" muted loop playsinline preload="metadata">
+                    </video>
                 </div>
-                <div class="content">Triển Lãm Lịch Sử</div> -->
             </a>
         </div>
 
-        <div class="section shop" style="background-image: url(assets/image/4.jpg); background-size: contain; background-position: center; background-repeat: no-repeat;">
+        <div class="section shop"
+            style="background-image: url(assets/image/4.jpg); width:100%;height:auto; background-position: center; background-repeat: no-repeat;">
             <a class="dir" href="assets/pages/store.html">
-                <!-- <div class="image-holder">
-                    <img src="assets/image/cart.jpg" alt="Mua bán sách">
+                <div class="video-cover">
+                    <video src="assets/video/store.mp4" class="appear" muted loop playsinline preload="metadata">
+                    </video>
                 </div>
-                <div class="content">Mua bán sách</div> -->
             </a>
         </div>
     </div>
+    <script>
+        // Xử lý tự động phát video khi hover vào section
+        document.querySelectorAll('.section').forEach(section => {
+            const video = section.querySelector('video');
+
+            section.addEventListener('mouseenter', () => {
+                if (video) {
+                    video.play(); // Phát video khi hover
+                }
+            });
+
+            section.addEventListener('mouseleave', () => {
+                if (video) {
+                    video.pause(); // Dừng video khi không hover
+                    video.currentTime = 0; // Reset về thời gian ban đầu
+                }
+            });
+        });
+
+    </script>
 </body>
+
 </html>
