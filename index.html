@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echoes Of The Past</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Thêm jQuery nếu chưa có -->
+    <script>
+        // Kiểm tra trạng thái đăng nhập
+        window.onload = function () {
+            const isLoggedIn = localStorage.getItem('isLoggedIn');
+            if (!isLoggedIn || isLoggedIn !== 'true') {
+                // Nếu chưa đăng nhập, chuyển hướng về trang đăng nhập
+                window.location.href = "assets/pages/login.html"; // Đường dẫn đến trang đăng nhập
+            }
+        }
+
+        // Xử lý sự kiện đăng xuất
+        function handleLogout() {
+            // Xóa thông tin phiên làm việc (nếu có)
+            localStorage.removeItem('isLoggedIn'); // Xóa trạng thái đăng nhập
+
+            // Chuyển hướng về trang đăng nhập
+            window.location.href = "assets/pages/login.html"; // Đường dẫn đến trang đăng nhập
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="timeline">
+        <button id="logoutButton" onclick="handleLogout()">Đăng xuất</button>
+
+        <div class="section lsvn"
+        style="background-image: url(assets/image/1.jpg); width:100%;height:auto; background-position: center; background-repeat: no-repeat;">
+            <a href="assets/pages/categories.html?data=lsvn" class="dir">
+                <div class="video-cover">
+                    <video src="assets/video/lsvn.mp4" class="appear" muted loop playsinline preload="metadata">
+                    </video>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="section lsqt"
+            style="background-image: url(assets/image/2.jpg); width:100%;height:auto; background-position: center; background-repeat: no-repeat;">
+            <a class="dir" href="assets/pages/lsqt.html">
+                <div class="video-cover">
+                    <video src="assets/video/lsqt.mp4" class="appear" muted loop playsinline preload="metadata">
+                    </video>
+                </div>
+            </a>
+        </div>
+
+        <div class="section tlls"
+            style="background-image: url(assets/image/3.jpg); width:100%;height:auto; background-position: center; background-repeat: no-repeat;">
+            <a class="dir" href="assets/pages/museum.html">
+                <div class="video-cover">
+                    <video src="assets/video/tlls.mp4" class="appear" muted loop playsinline preload="metadata">
+                    </video>
+                </div>
+            </a>
+        </div>
+
+        <div class="section shop"
+            style="background-image: url(assets/image/4.jpg); width:100%;height:auto; background-position: center; background-repeat: no-repeat;">
+            <a class="dir" href="assets/pages/store.html">
+                <div class="video-cover">
+                    <video src="assets/video/store.mp4" class="appear" muted loop playsinline preload="metadata">
+                    </video>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script>
+        // Xử lý tự động phát video khi hover vào section
+        document.querySelectorAll('.section').forEach(section => {
+            const video = section.querySelector('video');
+
+            section.addEventListener('mouseenter', () => {
+                if (video) {
+                    video.play(); // Phát video khi hover
+                }
+            });
+
+            section.addEventListener('mouseleave', () => {
+                if (video) {
+                    video.pause(); // Dừng video khi không hover
+                    video.currentTime = 0; // Reset về thời gian ban đầu
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>
