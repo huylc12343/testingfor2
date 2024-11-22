@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("historicalbackground.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2em;
+    color: #333;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+h1 {
+    margin: 20px 0;
+    font-size: 2em;
+    color: #333;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+}
+
+#headerline {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.back-button img {
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.back-button img:hover {
+    transform: scale(1.1);
+}
+
+/* Timeline Styles */
+.timeline {
+    position: relative;
+    width: 70%;
+    max-width: 800px;
+    margin-top: 40px;
+    padding: 40px 0;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #333;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.event {
+    padding: 20px;
+    position: relative;
+    width: 45%;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.event.left {
+    left: 0;
+    text-align: right;
+}
+
+.event.right {
+    left: 55%;
+    text-align: left;
+}
+
+.event::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #333;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.event.left::before {
+    right: -12px;
+}
+
+.event.right::before {
+    left: -12px;
+}
+
+/* Event Content Styling */
+.event-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-content:hover {
+    background-color: #e3f2fd;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.event-content h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.event-content h3 {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #007bff;
+}
+
+.event p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Popup Modal Styles */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.popup h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.popup p {
+    font-size: 1em;
+    color: #555;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #333;
+}
+
+.close-btn:hover {
+    color: #ff0000;
+}
+
+/* Overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0 10px; /* Thêm khoảng cách hai bên */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Giảm kích thước tiêu đề */
+    }
+
+    #headerline {
+        justify-content: center; /* Căn giữa nút quay lại */
+        padding: 5px 10px; /* Điều chỉnh padding */
+    }
+
+    
+
+    .timeline {
+        width: 100%; /* Timeline chiếm toàn bộ chiều rộng */
+        margin-top: 20px; /* Giảm khoảng cách trên */
+        padding: 20px 0; /* Giảm padding */
+    }
+
+    .timeline::after {
+        display: none; /* Ẩn đường chính trên màn hình nhỏ */
+    }
+
+    .event {
+        width: 90%; /* Chiều rộng sự kiện vừa với khung */
+        margin: 10px auto; /* Căn giữa sự kiện theo chiều ngang */
+        text-align: center; /* Văn bản căn giữa */
+        padding: 15px; /* Thêm khoảng cách bên trong */
+        position: relative;
+        left: 0; /* Reset vị trí sang trái */
+    }
+
+    .event.left,
+    .event.right {
+        text-align: center; /* Văn bản căn giữa */
+        left: 0; /* Reset vị trí */
+    }
+
+    .event::before {
+        display: none; /* Ẩn dấu chấm chỉ báo */
+    }
+
+    .event-content {
+        padding: 15px; /* Giảm padding */
+        font-size: 1em; /* Giữ kích thước phù hợp */
+        border-radius: 10px; /* Làm mềm góc khung */
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* Đổ bóng nhẹ */
+        background-color: #fff; /* Màu nền trắng */
+    }
+
+    .event-content h2 {
+        font-size: 1.2em; /* Tăng kích thước tiêu đề */
+    }
+
+    .event-content h3 {
+        font-size: 1em; /* Kích thước tiêu đề phụ */
+    }
+
+    .event-content p {
+        font-size: 0.9em; /* Kích thước văn bản mô tả */
+        color: #555; /* Màu xám nhẹ */
+    }
+}
